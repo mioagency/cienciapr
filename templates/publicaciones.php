@@ -5,6 +5,7 @@
 			<!-- Publicación 1 -->
 			<div class="col">
 				<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+					<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
           <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal">
           <div class="card-body d-flex flex-column justify-content-between p-4">
 						<h3 class="card-title fw-bold mb-3 fs-6">Lorem ipsum dolor sit amet consectetur. Sollicitudin viverra.</h3>
@@ -12,9 +13,10 @@
           </div>
         </div>
 			</div>
-			<!-- Publicación 1 -->
+			<!-- Publicación 2 -->
 			<div class="col">
 				<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+					<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Artículo</span>
           <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal">
           <div class="card-body d-flex flex-column justify-content-between p-4">
 						<h3 class="card-title fw-bold mb-3 fs-6">Lorem ipsum dolor sit amet consectetur. Sollicitudin viverra.</h3>
@@ -22,9 +24,10 @@
           </div>
         </div>
 			</div>
-			<!-- Publicación 1 -->
+			<!-- Publicación 3 -->
 			<div class="col">
 				<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+					<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
           <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal">
           <div class="card-body d-flex flex-column justify-content-between p-4">
 						<h3 class="card-title fw-bold mb-3 fs-6">Lorem ipsum dolor sit amet consectetur. Sollicitudin viverra.</h3>
@@ -32,9 +35,10 @@
           </div>
         </div>
 			</div>
-			<!-- Publicación 1 -->
+			<!-- Publicación 4 -->
 			<div class="col">
 				<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+					<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Artículo</span>
           <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal">
           <div class="card-body d-flex flex-column justify-content-between p-4">
 						<h3 class="card-title fw-bold mb-3 fs-6">Lorem ipsum dolor sit amet consectetur. Sollicitudin viverra.</h3>
