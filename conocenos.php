@@ -34,7 +34,7 @@ include_once('templates/breadcrumbs.php');
 		<!-- Eliminamos row-cols-2 para forzar el apilamiento en móviles -->
 		<div class="row row-cols-1 row-cols-md-2 g-4 g-lg-5">
 			<div class="col">
-				<div class="card bg-white h-100 p-4 rounded-20 border-0">
+				<div class="card bg-white h-100 p-5 rounded-20 border-0">
 					<h2 class="fs-2 fw-bold display-5 mb-4">Conoce a Ciencia Puerto Rico</h2>
 					<p class="fs-5 text-body">Ciencia Puerto Rico es una comunidad que reúne a científic@s, educadores,
 						profesionales y ciudadanos comprometidos con fortalecer la ciencia en la isla. A través de programas,
@@ -647,6 +647,12 @@ include_once('templates/breadcrumbs.php');
 
 		</div>
 	</section>
+	<!-- ============================================ -->
+	<!-- SECCIÓN: NOTICIAS SOBRE CIENCIA BORICUA -->
+	<!-- ============================================ -->
+	<?php
+		include_once('templates/noticias.php');
+	?>
 
 </main>
 <?php
