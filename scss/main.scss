@@ -1,0 +1,47 @@
+@use "custom";
+
+@use "gabriel";
+
+@use "bootstrap/scss/bootstrap" with (
+  // Pasamos los colores sueltos (opcional si pasas theme-colors, pero buena práctica)
+  $primary: custom.$primary,
+  $secondary: custom.$secondary,
+  $success: custom.$success,
+  $info: custom.$info,
+
+  // Aquí pasamos el mapa completo que definimos en _custom.scss
+  // Esto soluciona el error "Undefined variable"
+  $theme-colors: custom.$theme-colors,
+
+  // Tipografía
+  $font-family-sans-serif: custom.$font-family-sans-serif,
+  $font-size-base: custom.$font-size-base,
+  $font-sizes: custom.$font-sizes,
+  
+  // Layout y Espaciado
+  $container-max-widths: custom.$container-max-widths,
+  $spacers: custom.$spacers, // ¡Agregado! Para que Bootstrap reconozca tus spacers personalizados
+
+  // AGREGAMOS ESTAS DOS LÍNEAS:
+  // Esto hace que la clase .bg-body use tu color #ececec
+  // y que todo el sitio tenga ese fondo por defecto.
+  $body-bg: custom.$body-bg,
+  $body-color: custom.$body-color,
+
+  /* Anchos de bordes */
+  $border-widths: custom.$border-widths,
+);
+
+// ===================================================
+//  Extensiones de Utilidades (Helpers)
+// ===================================================
+// Bootstrap no trae text-hover-* por defecto. Lo creamos aquí
+// para poder usarlo como clase: class="text-hover-white"
+
+.text-hover-white:hover {
+  color: #fff !important;
+}
+
+.text-hover-primary:hover {
+  color: custom.$primary !important;
+} 

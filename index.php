@@ -1,0 +1,381 @@
+<?php
+
+$PageTitle = "Ciencia Puerto Rico - Inicio";
+$page = "Inicio";
+
+function customPageHeader()
+{ ?>
+  <!-- Estilos inicio -->
+<?php }
+
+include_once ('templates/header.php'); ?>
+
+<main>
+
+  <!-- SECCIÓN HÉROE -->
+  <div class="container-fluid text-white home-hero overflow-hidden">
+    
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row align-items-center py-5" style="min-height: 60vh;">
+        <div class="col-lg-6 pe-lg-5">
+          <h1 class="display-4 fw-bold mb-3 text-body">La <span class="text-primary">red global</span> que conecta ciencia y Puerto Rico</h1>
+          <p class="fs-5 mb-4 text-body">Conectamos a científicos, estudiantes y educadores con interés en la ciencia y Puerto Rico para transformar la educación, la investigación y la cultura científica.</p>
+          <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conoce más</a>
+          <a href="#" class="btn btn-lg fs-7 btn-outline-secondary text-hover-white">¿Quiénes somos?</a>  
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0"></div>
+      </div>
+    </div>
+
+     <!-- Banner 2 Columnas -->
+    <div class="container-fluid p-0"> 
+      <div class="row g-0 align-items-center bg-primary -ms-3 -me-3 bg-opacity-75">
+        <div class="col-12 col-lg-6 p-5 border-end border-white">
+          <p class="fs-4 fw-light lh-base">Únete a los sobre 15,000 científicos, estudiantes, educadores y aliados construyendo un futuro más justo y próspero desde la ciencia.</p>
+        </div>
+        <div class="col-12 col-lg-6 p-4">
+          <h3 class="fs-4 fw-bold">¿Quieres respaldar este movimiento?</h3>
+          <div class="p-4 rounded bg-white bg-opacity-25 d-flex justify-content-between align-items-center">
+            <p class="fw-light fs-7 m-0">Haz tu donación libre de impuestos y amplifica nuestro impacto.</p>
+            <a href="#" class="btn btn-success btn-lg fw-bold text-dark fs-7">Donar aquí</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+  <!-- SECCIÓN 3 COLUMNAS -->
+  <section class="py-7 bg-body">
+    <div class="container">
+      
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="fs-2 text-primary fw-bold text-dark">Nuestros ejes de acción científica</h2>
+        </div>
+      </div>
+
+      <div class="row gx-4">
+        
+        <!-- Columna 1 -->
+        <div class="col-12 col-md-4 mt-3">
+          <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
+          <div class="h-100 d-flex bg-white flex-column align-items-start rounded-4">
+            <img src="<?= SERVER_URI ?>images/ico-1.svg" alt="Imagen descriptiva 1" class="img-fluid mb-3 rounded">
+            <div class="h-100 p-4 d-flex flex-column justify-content-between align-items-start">
+              <div>
+                <h3>Participación Pública</h3>
+                <p>Promovemos decisiones basadas en evidencia y la participación de la ciencia en políticas sociales y comunitarias.</p>
+              </div>
+              <div>
+                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-hover-white">Leer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="col-12 col-md-4 rounded-4 mt-3">
+          <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
+          <div class="h-100 d-flex bg-white flex-column align-items-start rounded-4">
+            <img src="<?= SERVER_URI ?>images/ico-2.svg" alt="Imagen descriptiva 1" class="img-fluid mt-3 mb-3 rounded">
+            <div class="h-100 p-4 d-flex flex-column justify-content-between align-items-start">
+              <div>
+                <h3>Educación K-12</h3>
+                <p>Creando experiencias significativas en ciencia para estudiantes mediante recursos culturales, charlas y formación docente.</p>
+              </div>
+              <div>
+                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-hover-white">Leer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="col-12 col-md-4 rounded-4 mt-3">
+          <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
+          <div class="h-100 d-flex bg-white flex-column align-items-start rounded-4">
+            <img src="<?= SERVER_URI ?>images/ico-3.svg" alt="Imagen descriptiva 1" class="img-fluid mt-2 mb-3 rounded">
+            <div class="h-100 p-4 d-flex flex-column justify-content-between align-items-start">
+              <div>
+                <h3>Desarrollo Profesional</h3>
+                <p>Potenciamos carreras científicas con tutoría, redes, becas y programas como Yale Ciencia Academy.</p>
+              </div>
+              <div>
+                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-hover-white">Leer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="py-7 bg-primary pattern-grey">
+    <div class="container">
+      <!-- CABECERA Y CONTROLES -->
+      <div class="d-flex flex-wrap align-items-end justify-content-start mb-4">
+          <div class="d-flex col-lg-8 col-md-8 align-items-center justify-content-start gap-4">
+              <h2 class="fs-2 text-primary fw-bold text-white">Nuestros Destacados</h2>
+              <!-- Botones de navegación -->
+              <div class="pt-3 pt-md-0 d-flex">
+                  <button class="btn bg-white rounded-circle p-0" style="width: 32px; height: 32px;" id="btnPrev" aria-label="Anterior">
+                      <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button class="btn bg-white rounded-circle p-0 ms-2" style="width: 32px; height: 32px;" id="btnNext" aria-label="Siguiente">
+                      <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="container-fluid px-4 ps-md-5 py-5">
+
+      <!-- 
+        CONTENEDOR DEL SLIDER 
+        - row flex-nowrap: Alinea horizontalmente sin saltar de línea.
+        - overflow-x-auto: Activa el scroll.
+        - g-4: Espacio entre tarjetas (gap).
+      -->
+      <div id="sliderContainer" class="row flex-nowrap overflow-x-auto no-scrollbar g-4 pb-5 scroll-smooth">
+          
+          <!-- ITEM 1 -->
+          <!-- 
+              col-11: Móvil (91%)
+              col-md-5: Tablet (41%)
+              col-lg-peek-3: Desktop (30%)
+          -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Convocatorias</h3>
+                        <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/2-programas.png" class="card-img-top border-bottom border-8 border-info" alt="Programas">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Programas</h5>
+                        <p class="text-start fs-7">Mentoría, formación y oportunidades STEM que conectan a estudiantes, docentes y comunidades con la ciencia en Puerto Rico.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestros programas</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/3-eventos.png" class="card-img-top border-bottom border-8 border-info" alt="Eventos">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Eventos</h5>
+                        <p class="text-start fs-7">Charlas, talleres y ferias científicas para escuelas y comunidades. Descubre los próximos encuentros y regístrate para participar.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Entérate de nuestros eventos</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- ITEM 4 (Este se asoma en desktop) -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Convocatorias</h3>
+                        <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- ITEM 5 -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Convocatorias</h3>
+                        <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- ITEM 6 -->
+          <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
+              <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                  <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+                  <div class="card-body d-flex flex-column justify-content-between p-4">
+                      <div>
+                        <h3>Convocatorias</h3>
+                        <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="py-7">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6 d-flex flex-column gap-4">
+        <div class="card bg-white rounded-20 p-5">
+          <div class="card-body">
+            <h2 class="fs-1 fw-bold">Únete a nuestra comunidad de la <span class="text-primary">#CienciaBoricua</span></h2>
+            <p class="fs-5 card-text">El arma secreta de CienciaPR es su talentosa, dedicada y diversa red de miembros. Crea tu perfil, crece tu comunidad, participa de eventos, y descubre oportunidades para impulsar la ciencia en beneficio de Puerto Rico.</p>
+            <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Únete a la comunidad</a>
+          </div>
+        </div>
+        <img src="<?= SERVER_URI ?>images/1-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
+      </div>
+      <div class="col col-md-6 d-flex">
+        <img class="img-fluid img-equal rounded-20" src="<?= SERVER_URI ?>images/2-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!-- SECCIÓN: NOTICIAS SOBRE CIENCIA BORICUA -->
+<!-- ============================================ -->
+<section class="py-5 bg-body">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 class="fs-2 text-dark fw-bold text-center">Noticias sobre Ciencia Boricua</h2>
+      </div>
+    </div>
+    <div class="row g-4 align-items-stretch">
+      <div class="col-12 col-lg-6">
+        <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+          <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal" style="height: 300px; object-fit: cover;">
+          <div class="card-body d-flex flex-column justify-content-between p-4">
+            <div>
+              <h3 class="card-title fw-bold mb-3">Jóvenes puertorriqueños representarán a Puerto Rico en la Feria Internacional MILSET en Abu Dhabi</h3>
+              <p class="card-text text-muted fs-6">Tres jóvenes científicos de Puerto Rico viajarán para representar a la isla en una competencia internacional de ciencia...</p>
+            </div>
+            <div class="mt-3">
+              <small class="text-uppercase text-muted fw-bold" style="font-size: 0.7rem;">Por Admin • Septiembre 2025</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row g-4 h-100">
+            <div class="col-12 col-md-6">
+              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+                <img src="<?= SERVER_URI ?>images/2-noticias.jpg" class="card-img-top" alt="Noticia 2" style="height: 140px; object-fit: cover;">
+                <div class="card-body p-3">
+                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Talento del Centro Molecular-UPR destaca en EE. UU.</h5>
+                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+                <img src="<?= SERVER_URI ?>images/3-noticias.jpg" class="card-img-top" alt="Noticia 3" style="height: 140px; object-fit: cover;">
+                <div class="card-body p-3">
+                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Embajadora del RUM en Fulbright Canadá</h5>
+                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+                <img src="<?= SERVER_URI ?>images/4-noticias.jpg" class="card-img-top" alt="Noticia 4" style="height: 140px; object-fit: cover;">
+                <div class="card-body p-3">
+                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Biología RUM inaugura corredor y laboratorio</h5>
+                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+                <img src="<?= SERVER_URI ?>images/5-noticias.jpg" class="card-img-top" alt="Noticia 5" style="height: 140px; object-fit: cover;">
+                <div class="card-body p-3">
+                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Hepatitis C y Parkinson: estudio del RUM</h5>
+                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <a href="#" class="btn btn-primary text-white btn-lg fs-6">Ver todas las noticias</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!-- SECCIÓN: NEWSLETTER + VIDEO -->
+<!-- ============================================ -->
+<section class="py-7 pattern-grey-2">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 bg-primary rounded-20">
+        <div class="row mx-5 my-4">
+          <div class="col col-md-6">
+            <h2 class="fs-2 text-white">Descubre la ciencia desde una nueva perspectiva</h2>
+          </div>
+          <div class="col col-md-6">
+            <p class="fs-7 text-white">A través de nuestro canal de YouTube, compartimos conocimiento, curiosidad y el impacto real de la ciencia en Puerto Rico y el mundo.</p>
+            <a href="https://www.youtube.com/" target="_blank" class="fs-7 btn bg-white d-inline-flex align-items-center shadow rounded-3 text-decoration-none px-3 py-2" style="border: 1px solid #eef0f2;">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-3">
+                  <rect x="2" y="4" width="20" height="16" rx="4" fill="#EE1D23"/>
+                  <path d="M10 8.5L16 12L10 15.5V8.5Z" fill="white"/>
+              </svg>
+              <span class="text-dark fw-normal fs-6">Accede a nuestro canal en YouTube</span>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 bg-white rounded-20 p-3">
+        <div class="position-relative rounded-4 overflow-hidden shadow-lg video-placeholder vh-100">
+          <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></div>
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center z-2">
+            <a href="#" class="play-icon-link">
+               <img src="<?= SERVER_URI ?>images/icon-play-button.svg" alt="Play Video" style="width: 90px; height: auto;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+</main>
+<?php
+include_once ('templates/footer.php');
+?>

@@ -1,0 +1,390 @@
+@use "sass:map";
+
+// 1. Variables de Color
+$primary: #02a88c;
+$secondary: #75848f;
+$tertiary: #92c740;
+$success: #ffdb08;
+$info: #14a3c7;
+
+$body-bg: #ececec;
+$body-color: #333333;
+
+// 2. Mapa de Colores del Tema
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  // Agregado para generar clases (btn-tertiary, bg-tertiary)
+  "success": $success,
+  "info": $info,
+  "warning": #ffc107,
+  // Mantenemos defaults de Bootstrap por seguridad
+  "danger": #dc3545,
+  "light": #faf9f6,
+  "dark": #1a1a1a,
+);
+
+// 3. Spacers y Tamaños
+$spacers: (
+  0: 0,
+  // 0px
+  1: 0.25rem,
+  // 4px
+  2: 0.5rem,
+  // 8px
+  3: 1rem,
+  // 16px
+  4: 1.5rem,
+  // 24px
+  5: 3rem,
+  // 48px
+  6: 4rem,
+  // 64px
+  7: 5rem,
+  // 80px
+  8: 6rem,
+  // 96px
+  9: 8rem, // 128px
+);
+
+$font-sizes: (
+  1: 3rem,
+  // 48px
+  2: 2.5rem,
+  // 40px
+  3: 2rem,
+  // 32px
+  4: 1.5rem,
+  // 24px
+  5: 1.25rem,
+  // 20px
+  6: 1rem,
+  // 16px
+  7: 1.125rem,
+  // 18px
+  8: 0.875rem,
+  // 14px
+  9: 0.75rem, // 12px
+);
+
+$font-size-base: 0.9375rem;
+$font-family-sans-serif: "DM Sans", sans-serif;
+/* Radio de Bordes */
+$border-radius: 0.5rem;
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px,
+  xxl: 1440px,
+);
+
+$border-widths: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+  8: 8px,
+) !default;
+
+.rounded-20 {
+  border-radius: 1.25rem !important;
+}
+
+// 4. Fuentes
+$fonts: (
+  // inter: "Inter",
+  dm-sans: "DM Sans",
+);
+
+$font-family-dm-sans: map.get($fonts, dm-sans);
+
+.font-dm-sans {
+  font-family: $font-family-dm-sans, sans-serif !important;
+}
+
+// ===================================================
+//  Ajustes Globales de Tipografía
+// ===================================================
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  letter-spacing: 0em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0em;
+}
+
+// ================================================
+//  Utilidades de Espaciado Negativo
+// ================================================
+
+@each $size, $value in $spacers {
+  .-m-#{$size} {
+    margin: calc(#{$value} * -1) !important;
+  }
+  .-mx-#{$size} {
+    margin-left: calc(#{$value} * -1) !important;
+    margin-right: calc(#{$value} * -1) !important;
+  }
+  .-my-#{$size} {
+    margin-top: calc(#{$value} * -1) !important;
+    margin-bottom: calc(#{$value} * -1) !important;
+  }
+  .-mt-#{$size} {
+    margin-top: calc(#{$value} * -1) !important;
+  }
+  .-mb-#{$size} {
+    margin-bottom: calc(#{$value} * -1) !important;
+  }
+  .-ms-#{$size} {
+    margin-left: calc(#{$value} * -1) !important;
+  }
+  .-me-#{$size} {
+    margin-right: calc(#{$value} * -1) !important;
+  }
+}
+
+/* Header & Menu */
+.navbar-nav .nav-link.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu .list-unstyled .dropdown-item {
+  line-height: 1.5;
+  white-space: normal;
+}
+
+.mega-menu-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
+.mega-menu-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: var(--bs-primary);
+  bottom: -0.5rem;
+  left: 0;
+}
+
+// ===================================================
+//  Backgrounds
+// ===================================================
+$home-bg-hero: url("../images/home-hero-bg.webp");
+$ciencia-boricua-bg-hero: url("../images/descubre-header-bg.webp");
+$educacion-k12-bg-hero: url("../images/educacion-k12-bg.jpg");
+
+
+.home-hero {
+  background-image: $home-bg-hero;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-hero-bg {
+  background-size: cover;
+  background-position: center; 
+  min-height: 250px;
+}
+
+.bg-img_ciencia-boricua {
+      background-image: $ciencia-boricua-bg-hero; 
+  }
+
+.bg-img_educacion-k12 {
+    background-image: $educacion-k12-bg-hero; 
+}
+
+$icon-pattern: url("../images/pattern-grey.png");
+
+.pattern-grey {
+  background-image: $icon-pattern;
+  background-size: 65%;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+$icon-pattern-2: url("../images/pattern-2.webp");
+
+.pattern-grey-2 {
+  background-image: $icon-pattern-2;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+$video-placeholder: url("../images/video-placeholder.webp");
+
+.video-placeholder {
+  background-image: $video-placeholder;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Conocenos */
+
+.conocenos-hero {
+  background-image: url("../images/bg-conocenos.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* --- 1. OCULTAR SCROLLBAR (Estético) --- */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* --- 2. LÓGICA DE 3 COLUMNAS + PEEK --- */
+/* 
+    En pantallas grandes (lg), forzamos el ancho al 30%.
+    3 columnas ocuparán el 90% del ancho total.
+    El 10% restante mostrará el inicio de la 4ª columna.
+*/
+@media (min-width: 992px) {
+  .col-lg-peek-3 {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+  }
+}
+
+/* Altura mínima para la demo */
+.min-h-card {
+  min-height: 350px;
+}
+
+/* Igualar altura de imágenes*/
+.img-equal {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+// ===================================================
+//  Loops de Blogs, noticias y otros
+// ===================================================
+    .blog_image-size-y {
+      max-height:250px;
+      width:100%;
+      object-fit: cover;
+    }
+
+
+/*INICIO: Estilos para Mega Menú en Hover (Desktop) - REINSERTADO*/
+@media (min-width: 992px) {
+  /* 0. Asegurar que la lista de navegación ocupe todo el alto */
+  .navbar-expand-lg .navbar-nav {
+    height: 90px;
+  }
+
+  /* 0. Dar la misma altura al LI (elemento padre) y centrar el enlace verticalmente */
+  .navbar-nav .nav-item.dropdown {
+    height: 90px;
+    display: flex; /* Usamos flex para contener el enlace */
+    align-items: center; /* Centra el enlace dentro del LI */
+  }
+
+  /* SOLUCIÓN CLAVE: Hacemos que el enlace ocupe toda la altura del LI (header) y centramos su propio contenido */
+  .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle {
+    height: 90px;
+    display: flex;
+    align-items: center; /* Centra el texto y el icono dentro del enlace */
+  }
+
+  /* 1. Regla para mostrar el menú al hacer hover y al hacer click (clase .show) */
+  .navbar-nav .nav-item.dropdown.position-static:hover > .dropdown-menu,
+  .navbar-nav .nav-item.dropdown.position-static > .dropdown-menu.show {
+    display: block;
+
+    /* SOLUCIÓN: Usamos top: 100% para pegarlo al borde inferior del LI (que tiene la altura del header) */
+    top: 90px !important; /* Ahora el menú está inmediatamente debajo del li (header) */
+    margin-top: 0;
+
+    /* Centrado Horizontal del Mega Menú */
+    left: 50% !important;
+    transform: translateX(-50%);
+    max-width: 1200px; /* Limita el ancho del menú (ajusta según tu contenedor) */
+  }
+
+  /* 2. Oculta el menú por defecto y la flecha de Bootstrap */
+  .navbar-nav .nav-item.dropdown.position-static > .dropdown-menu {
+    display: none;
+  }
+  .navbar-nav .nav-link.dropdown-toggle::after {
+    display: none;
+  }
+}
+/*FIN: Estilos para Mega Menú en Hover (Desktop) */
+
+/* ===================================================
+Ajustes de Scroll y Barras (Oculta barra de desplazamiento)
+=================================================== 
+*/
+
+/* Oculta la barra de scroll en navegadores WebKit (Chrome, Safari, Edge Chromium) */
+.carousel-scrollable::-webkit-scrollbar {
+  display: none;
+  height: 0;
+}
+
+/* Oculta la barra de scroll en navegadores IE y Edge */
+.carousel-scrollable {
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Oculta la barra de scroll en Firefox */
+.carousel-scrollable {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* ===================================================
+  Ajustes de Scroll y Barras (Oculta barra de desplazamiento)
+  =================================================== 
+  ... (Reglas de scrollbar)
+*/
+
+/* ------------------------------------------------------
+4. SOLUCIÓN DRAG-TO-SCROLL SOBRE LOGOS
+------------------------------------------------------ 
+*/
+
+/* La propiedad pointer-events: none evita que el elemento más interno (la imagen)
+intercepte los eventos del ratón (mousedown/mousemove), permitiendo que el 
+evento se "transparente" al contenedor padre (.carousel-scrollable) donde 
+está activo el arrastre.
+*/
+.carousel-scrollable img,
+.carousel-scrollable .col-auto {
+  pointer-events: none;
+}
+
+/* IMPORTANTE: Necesitamos RESTAURAR los pointer-events en elementos interactivos 
+que SÍ deben responder a clics (ej., enlaces o botones que puedas poner en otros carruseles).
+*/
+.carousel-scrollable a,
+.carousel-scrollable button {
+  pointer-events: auto;
+}
