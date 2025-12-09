@@ -48,4 +48,5 @@
 			</div>
 		</div>
 	</div>
+	<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-primary text-white fs-6">Ver más publicaciones</a></div>
 </section>
