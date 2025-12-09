@@ -245,9 +245,9 @@ include_once ('templates/header.php'); ?>
 </section>
 <section class="py-7">
   <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-2">
       <div class="col col-md-6 d-flex flex-column gap-4">
-        <div class="card bg-white rounded-20 p-5">
+        <div class="card bg-white border-0 rounded-20 p-5 h-100">
           <div class="card-body">
             <h2 class="fs-1 fw-bold">Únete a nuestra comunidad de la <span class="text-primary">#CienciaBoricua</span></h2>
             <p class="fs-5 card-text">El arma secreta de CienciaPR es su talentosa, dedicada y diversa red de miembros. Crea tu perfil, crece tu comunidad, participa de eventos, y descubre oportunidades para impulsar la ciencia en beneficio de Puerto Rico.</p>
@@ -256,8 +256,8 @@ include_once ('templates/header.php'); ?>
         </div>
         <img src="<?= SERVER_URI ?>images/1-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
       </div>
-      <div class="col col-md-6 d-flex">
-        <img class="img-fluid img-equal rounded-20" src="<?= SERVER_URI ?>images/2-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
+      <div class="col col-md-6 d-flex h-100">
+        <img class="img-fluid img-equal rounded-20 h-100" src="<?= SERVER_URI ?>images/2-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
       </div>
     </div>
   </div>
@@ -266,78 +266,9 @@ include_once ('templates/header.php'); ?>
 <!-- ============================================ -->
 <!-- SECCIÓN: NOTICIAS SOBRE CIENCIA BORICUA -->
 <!-- ============================================ -->
-<section class="py-5 bg-body">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-        <h2 class="fs-2 text-dark fw-bold text-center">Noticias sobre Ciencia Boricua</h2>
-      </div>
-    </div>
-    <div class="row g-4 align-items-stretch">
-      <div class="col-12 col-lg-6">
-        <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-          <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal" style="height: 300px; object-fit: cover;">
-          <div class="card-body d-flex flex-column justify-content-between p-4">
-            <div>
-              <h3 class="card-title fw-bold mb-3">Jóvenes puertorriqueños representarán a Puerto Rico en la Feria Internacional MILSET en Abu Dhabi</h3>
-              <p class="card-text text-muted fs-6">Tres jóvenes científicos de Puerto Rico viajarán para representar a la isla en una competencia internacional de ciencia...</p>
-            </div>
-            <div class="mt-3">
-              <small class="text-uppercase text-muted fw-bold" style="font-size: 0.7rem;">Por Admin • Septiembre 2025</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="row g-4 h-100">
-            <div class="col-12 col-md-6">
-              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-                <img src="<?= SERVER_URI ?>images/2-noticias.jpg" class="card-img-top" alt="Noticia 2" style="height: 140px; object-fit: cover;">
-                <div class="card-body p-3">
-                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Talento del Centro Molecular-UPR destaca en EE. UU.</h5>
-                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-                <img src="<?= SERVER_URI ?>images/3-noticias.jpg" class="card-img-top" alt="Noticia 3" style="height: 140px; object-fit: cover;">
-                <div class="card-body p-3">
-                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Embajadora del RUM en Fulbright Canadá</h5>
-                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-                <img src="<?= SERVER_URI ?>images/4-noticias.jpg" class="card-img-top" alt="Noticia 4" style="height: 140px; object-fit: cover;">
-                <div class="card-body p-3">
-                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Biología RUM inaugura corredor y laboratorio</h5>
-                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-                <img src="<?= SERVER_URI ?>images/5-noticias.jpg" class="card-img-top" alt="Noticia 5" style="height: 140px; object-fit: cover;">
-                <div class="card-body p-3">
-                  <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Hepatitis C y Parkinson: estudio del RUM</h5>
-                  <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Por Admin • Septiembre 2025</small>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mt-5">
-      <div class="col-12 text-center">
-        <a href="#" class="btn btn-primary text-white btn-lg fs-6">Ver todas las noticias</a>
-      </div>
-    </div>
-
-  </div>
-</section>
+<?php
+	include_once('templates/noticias.php');
+?>
 
 <!-- ============================================ -->
 <!-- SECCIÓN: NEWSLETTER + VIDEO -->
