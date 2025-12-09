@@ -653,6 +653,12 @@ include_once('templates/breadcrumbs.php');
 	<?php
 		include_once('templates/noticias.php');
 	?>
+	<!-- ============================================ -->
+	<!-- SECCIÓN: PUBLICACIONES -->
+	<!-- ============================================ -->
+	<?php
+		include_once('templates/publicaciones.php');
+	?>
 
 </main>
 <?php
