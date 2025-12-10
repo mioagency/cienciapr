@@ -33,7 +33,7 @@ include_once ('templates/breadcrumbs.php');
     <!-- SECCIÓN CONTENIDO PRINCIPAL -->
     <section class="py-8">
         <div class="container">
-            <div class="row gx-5 gy-4 align-items-stretch">
+            <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column gap-4">
                     <div class="card bg-white rounded-20 p-5 h-100 d-flex flex-column justify-content-center">
                         <div class="card-body p-0">
@@ -83,14 +83,14 @@ include_once ('templates/breadcrumbs.php');
           -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/iniciativas-semillas.jpg" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+              <img src="<?= SERVER_URI ?>images/iniciativas-semillas.jpg" class="card-img-top border-bottom border-8 border-primary" alt="Convocatorias">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Semillas de Triunfo</h3>
                   <p class="text-start fs-7">Programa que inspira a niñas de 7mo a 9no grado a explorar la ciencia, la ingeniería y la tecnología, desarrollando liderazgo y confianza.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Ver más detalles</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Ver más detalles</a>
                 </div>
               </div>
             </div>
@@ -99,14 +99,14 @@ include_once ('templates/breadcrumbs.php');
           <!-- ITEM 2 -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/iniciativas-centificos-servicio.jpg" class="card-img-top border-bottom border-8 border-info" alt="Programas">
+              <img src="<?= SERVER_URI ?>images/iniciativas-centificos-servicio.jpg" class="card-img-top border-bottom border-8 border-primary" alt="Programas">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Científicos al Servicio</h3>
                   <p class="text-start fs-7">Iniciativa que conecta científicos con maestros y estudiantes para llevar la ciencia al aula mediante proyectos y experiencias prácticas.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Explorar iniciativa</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Explorar iniciativa</a>
                 </div>
               </div>
             </div>
@@ -115,14 +115,14 @@ include_once ('templates/breadcrumbs.php');
           <!-- ITEM 3 -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/iniciativas--yale-academy.jpg" class="card-img-top border-bottom border-8 border-info" alt="Eventos">
+              <img src="<?= SERVER_URI ?>images/iniciativas--yale-academy.jpg" class="card-img-top border-bottom border-8 border-primary" alt="Eventos">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Yale Ciencia Academy</h3>
                   <p class="text-start fs-7">Programa de mentoría y desarrollo profesional para estudiantes graduados en ciencias, enfocado en liderazgo, comunicación y comunidad.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Leer más</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Leer más</a>
                 </div>
               </div>
             </div>
@@ -131,14 +131,14 @@ include_once ('templates/breadcrumbs.php');
           <!-- ITEM 4 (Este se asoma en desktop) -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-primary" alt="Convocatorias">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Convocatorias</h3>
                   <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
                 </div>
               </div>
             </div>
@@ -147,14 +147,14 @@ include_once ('templates/breadcrumbs.php');
           <!-- ITEM 5 -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-primary" alt="Convocatorias">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Convocatorias</h3>
                   <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
                 </div>
               </div>
             </div>
@@ -163,14 +163,14 @@ include_once ('templates/breadcrumbs.php');
           <!-- ITEM 6 -->
           <div class="col-11 col-md-5 col-lg-peek-3 flex-shrink-0">
             <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
-              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-info" alt="Convocatorias">
+              <img src="<?= SERVER_URI ?>images/1-convocatorias.png" class="card-img-top border-bottom border-8 border-primary" alt="Convocatorias">
               <div class="card-body d-flex flex-column justify-content-between p-4">
                 <div>
                   <h3>Convocatorias</h3>
                   <p class="text-start fs-7">Becas, internados, fondos y vacantes STEM de nuestra red. Explora y comparte oportunidades para estudiantes, docentes y científicxs.</p>
                 </div>
                 <div>
-                  <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
+                  <a href="#" class="btn btn-secondary btn-lg fs-8 text-white">Conoce nuestras convocatorias</a>
                 </div>
               </div>
             </div>

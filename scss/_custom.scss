@@ -206,20 +206,33 @@ $educacion-k12-bg-hero: url("../images/educacion-k12-bg.jpg");
 }
 
 .bg-img_ciencia-boricua {
-      background-image: $ciencia-boricua-bg-hero; 
+  background-image: $ciencia-boricua-bg-hero; 
   }
 
 .bg-img_educacion-k12 {
-    background-image: $educacion-k12-bg-hero; 
+  background-image: $educacion-k12-bg-hero; 
 }
 
 $icon-pattern: url("../images/pattern-grey.png");
 
 .pattern-grey {
-  background-image: $icon-pattern;
-  background-size: 65%;
-  background-position: right center;
-  background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
+
+  &::before {
+    content: "";
+    background-image: $icon-pattern;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: .5;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    z-index: -1;
+  }
 }
 
 $icon-pattern-2: url("../images/pattern-2.webp");

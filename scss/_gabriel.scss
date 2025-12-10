@@ -1,0 +1,42 @@
+#ciencia-boricua {
+    h2 {
+        color:white !important;
+    }
+
+    a.btn {
+        background-color: var(--bs-success);
+        color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;;
+    }
+}
+
+#perfiles a:after {
+    font-family: "bootstrap-icons";
+    content: "\F138";
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+
+.loop-element-border > div {
+
+    &::after {
+        content: "";
+        width: 98%;
+        height: 1.5px;
+        background-color: var(--bs-secondary);
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &:last-child::after {
+        display: none;
+    }
+
+}
+
+// Utilities
+.bg-cover {background-size: cover;}
+.bg-center {background-position: center;}
+.mw-100 {max-width:1000px;}
+
