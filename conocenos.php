@@ -1474,6 +1474,44 @@ include_once('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
+	<section class="container-fluid pt-5 p-lg-6">
+		<h2 class="fs-2 fw-bold text-body text-center mb-4">Nuestros Servicios</h2>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pt-3">
+				<!-- Servicio 1 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+						<div class="card-body d-flex flex-column justify-content-between p-4">
+							<h3 class="card-title fw-bold mb-3">Catálogo de Recursos Educativos</h3>
+							<p class="fs-6 text-body">Lorem ipsum dolor sit amet consectetur. Scelerisque nulla vel faucibus magna ac lectus nec enim.</p>
+							<a href="#" class="btn btn-outline-secondary text-body mt-3 me-auto">Leer más</a>
+						</div>
+					</div>
+				</div>
+				<!-- Servicio 1 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+						<div class="card-body d-flex flex-column justify-content-between p-4">
+							<h3 class="card-title fw-bold mb-3">Programa "Científicos al Servicio"</h3>
+							<p class="fs-6 text-body">Lorem ipsum dolor sit amet consectetur. Scelerisque nulla vel faucibus magna ac lectus nec enim.</p>
+							<a href="#" class="btn btn-outline-secondary text-body mt-3 me-auto">Leer más</a>
+						</div>
+					</div>
+				</div>
+				<!-- Servicio 1 -->
+				<div class="col">
+					<div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+						<div class="card-body d-flex flex-column justify-content-between p-4">
+							<h3 class="card-title fw-bold mb-3">Científicos al Servicio en Línea</h3>
+							<p class="fs-6 text-body">Lorem ipsum dolor sit amet consectetur. Scelerisque nulla vel faucibus magna ac lectus nec enim.</p>
+							<a href="#" class="btn btn-outline-secondary text-body mt-3 me-auto">Leer más</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-primary text-white fs-6">Ver todos los servicios</a></div>
+	</section>
 </main>
 <?php
 include_once('templates/footer.php');
