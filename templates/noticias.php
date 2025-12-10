@@ -1,4 +1,4 @@
-<section class="py-8 bg-body">
+<section class="pt-8 pb-4 bg-body">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
@@ -8,6 +8,7 @@
     <div class="row g-4 align-items-stretch">
       <div class="col-12 col-lg-6">
         <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+					<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
           <img src="<?= SERVER_URI ?>images/1-noticias.jpg" class="card-img-top" alt="Noticia Principal" style="height: 300px; object-fit: cover;">
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
@@ -24,6 +25,7 @@
         <div class="row g-4 h-100">
           <div class="col-12 col-md-6">
             <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+							<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
               <img src="<?= SERVER_URI ?>images/2-noticias.jpg" class="card-img-top" alt="Noticia 2" style="height: 140px; object-fit: cover;">
               <div class="card-body p-3">
                 <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Talento del Centro Molecular-UPR destaca en EE. UU.</h5>
@@ -33,6 +35,7 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+							<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
               <img src="<?= SERVER_URI ?>images/3-noticias.jpg" class="card-img-top" alt="Noticia 3" style="height: 140px; object-fit: cover;">
               <div class="card-body p-3">
                 <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Embajadora del RUM en Fulbright Canadá</h5>
@@ -42,6 +45,7 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+							<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
               <img src="<?= SERVER_URI ?>images/4-noticias.jpg" class="card-img-top" alt="Noticia 4" style="height: 140px; object-fit: cover;">
               <div class="card-body p-3">
                 <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Biología RUM inaugura corredor y laboratorio</h5>
@@ -51,6 +55,7 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
+							<span class="badge bg-success text-body rounded-1 position-absolute top-0 start-0 m-3 fs-8">Libro</span>
               <img src="<?= SERVER_URI ?>images/5-noticias.jpg" class="card-img-top" alt="Noticia 5" style="height: 140px; object-fit: cover;">
               <div class="card-body p-3">
                 <h5 class="card-title fw-bold mb-2" style="font-size: 0.95rem;">Hepatitis C y Parkinson: estudio del RUM</h5>
