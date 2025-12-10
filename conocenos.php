@@ -659,7 +659,821 @@ include_once('templates/breadcrumbs.php');
 	<?php
 		include_once('templates/publicaciones.php');
 	?>
+	<!-- ============================================ -->
+	<!-- SECCIÓN: REPORTES (TABS) -->
+	<!-- ============================================ -->
+	<section class="container-fluid bg-light pt-5 p-lg-6">
+		<div class="container">
+			<h2 class="fs-2 fw-bold text-body text-center mb-4">Reportes Anuales</h2>
 
+			<!-- Contenedor para scroll horizontal de pestañas en móvil -->
+			<div class="d-flex overflow-x-auto mb-5">
+				<!-- ====== NAV PILLS DE AÑOS ====== -->
+				<ul class="nav nav-pills mx-auto d-flex justify-content-center flex-nowrap mb-4" id="reportesTabs" role="tablist">
+					<!-- Año -->
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2016-tab" data-bs-toggle="pill" data-bs-target="#y2016" type="button" role="tab">2016</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 active" id="y2017-tab" data-bs-toggle="pill" data-bs-target="#y2017" type="button" role="tab">2017</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2018-tab" data-bs-toggle="pill" data-bs-target="#y2018" type="button" role="tab">2018</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2019-tab" data-bs-toggle="pill" data-bs-target="#y2019" type="button" role="tab">2019</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2020-tab" data-bs-toggle="pill" data-bs-target="#y2020" type="button" role="tab">2020</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2021-tab" data-bs-toggle="pill" data-bs-target="#y2021" type="button" role="tab">2021</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2022-tab" data-bs-toggle="pill" data-bs-target="#y2022" type="button" role="tab">2022</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2023-tab" data-bs-toggle="pill" data-bs-target="#y2023" type="button" role="tab">2023</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2024-tab" data-bs-toggle="pill" data-bs-target="#y2024" type="button" role="tab">2024</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button class="btn btn-outline-secondary me-2 " id="y2025-tab" data-bs-toggle="pill" data-bs-target="#y2025" type="button" role="tab">2025</button>
+					</li>
+				</ul>
+			</div>
+			<!-- ====== CONTENIDO DE CADA AÑO ====== -->
+			<div class="tab-content" id="reportesTabsContent">
+
+				<!-- 2017 (Ejemplo con contenido, es el activo) -->
+				<div class="tab-pane fade show active" id="y2017" role="tabpanel" aria-labelledby="y2017-tab">
+
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- PANEL VACÍO PARA LOS DEMÁS AÑOS -->
+				<div class="tab-pane fade" id="y2016" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2018" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2019" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2020" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2021" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2022" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2023" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2024" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="y2025" role="tabpanel">
+					<div class="container">
+						<div class="row g-4">
+
+							<!-- Card -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+
+							<!-- Duplicar más cards... -->
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="p-4 rounded shadow-sm bg-white d-flex justify-content-between align-items-center gap-3">
+									<div>
+										<p class="mb-0">
+											Lorem ipsum dolor sit amet consectetur. Adipiscing sed in et egestas tristique faucibus non.
+										</p>
+									</div>
+									<a href="#" class="btn btn-outline-primary text-nowrap">Ver informe</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón cargar más -->
+						<div class="text-center mt-6">
+							<button class="btn btn-primary text-white px-4">Cargar más informes</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 </main>
 <?php
 include_once('templates/footer.php');
