@@ -1,3 +1,17 @@
+// ===============================
+// BACKGROUNDS
+// ================================
+$talento-y-liderazgo-bg-hero: url("../images/bg-conocenos.webp");
+$comunicacion-iniciativas-comunitarias-bg-hero: url("../images/comunicacion-iniciativas-comunitarias-bg-hero.jpg");
+
+
+.bg-img_talento-y-liderazgo {
+  background-image: $talento-y-liderazgo-bg-hero; 
+}
+.bg-img_comunicacion-iniciativas {
+  background-image: $comunicacion-iniciativas-comunitarias-bg-hero; 
+}
+
 .loop-element-border > div {
 
     &::after {
