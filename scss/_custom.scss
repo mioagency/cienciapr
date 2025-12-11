@@ -234,6 +234,13 @@ $icon-pattern: url("../images/pattern-grey.png");
     z-index: -1;
   }
 }
+@media (max-width: 575.98px) {
+  .pattern-grey::before {
+    background-position: top center;
+    background-size: 170%;
+  }
+}
+
 
 $icon-pattern-2: url("../images/pattern-2.webp");
 

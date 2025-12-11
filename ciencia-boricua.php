@@ -31,7 +31,7 @@ include_once ('templates/breadcrumbs.php');
         
     </section>
     
-    <section class="pt-8">
+    <section class="pt-5 pt-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column">
@@ -59,7 +59,7 @@ include_once ('templates/breadcrumbs.php');
                 </div>
             </div>
 
-            <div class="row g-4">
+            <div class="row gy-5">
                 <!-- Columna 1 -->
                 <div class="col-12 col-md-4">
                     <img src="<?= SERVER_URI ?>/images/descubre_blog-1.webp" alt="Imagen descriptiva 1" class="mb-3 rounded blog_image-size-y">
@@ -124,28 +124,25 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-    <!-- ESPACIO PARA ANUNCIO -->
-    <?php include_once ('templates/fila-de-anuncio.php'); ?>
-
     <!-- LOOP DE NOTICIAS -->
     <section id="ciencia-boricua" class="py-8 bg-primary pattern-grey">
         <?php include_once ('templates/noticias.php'); ?>
     </section>
 
     <!-- PERFILES -->
-    <section class="py-8">
+    <section class="py-5 py-md-8">
         <div class="container">
             <div class="row">
-                <div class="col-9 mx-auto text-center d-flex flex-column gap-3">
+                <div class="col-md-9 mx-auto text-center d-flex flex-column gap-3">
                     <h2 class="fs-2 fw-semibold">Perfiles de la Ciencia Boricua</h2>
                     <p class="fs-5 card-text fw-normal">Cada mes resaltamos el trabajo de un miembro de CienciaPR que se ha distinguido por su trabajo o discutimos un tema de interés y relevancia para nuestra comunidad.</p>
                 </div>
                 <div id="perfiles" class="col-12 loop-element-border mx-auto border-0 bg-white card rounded-20 p-4 mt-4 gap-4">
                     <div class="row ">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <img src="<?= SERVER_URI ?>images/ciencia-solidaridad.jpg" class="img-fluid" alt="Profile Image">
                         </div>
-                        <div class="col-8 px-4 d-flex flex-column gap-2 justify-content-center">
+                        <div class="col-12 col-md-8 px-4 d-flex flex-column gap-2 pt-3 pt-sm-0 justify-content-center">
                             <h4>¡Qué vivan los líderes comunitarios, tabonucos de Puerto Rico!</h4>
                             <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Mónica Ivelisse Feliú-Mójer | Marzo 2, 2024</small>
                             <p class="card-text fw-normal">Los líderes y lideresas comunitarias de Puerto Rico son fibra esencial de nuestro país. Constituyen una importante red de apoyo y de seguridad para un sinnúmero de personas, en especial aquellas que son vulneradas y marginadas...</p>
@@ -153,10 +150,10 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <img src="<?= SERVER_URI ?>images/seCaribe.jpg" class="img-fluid" alt="Profile Image">
                         </div>
-                        <div class="col-8 px-4 d-flex flex-column gap-2 justify-content-center">
+                        <div class="col-12 col-md-8 px-4 d-flex flex-column gap-2 pt-3 pt-sm-0 justify-content-center">
                             <h4>SECARIBE: Investigando conexiones entre las sequías del Caribe y el polvo del Sahara</h4>
                             <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Joel Alejandro Mercado-Díaz | Junio 14, 2022</small>
                             <p class="card-text fw-normal">En 2015, 75 de los 78 municipios de Puerto Rico se vieron afectados por una sequía que causó escasez severa y racionamientos en los suministros de agua. Según el Monitor de Sequías de Estados Unidos, ésta ha sido la sequía más...</p>
@@ -164,10 +161,10 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <img src="<?= SERVER_URI ?>images/mariposas-en-el-yunque.jpg" class="img-fluid" alt="Profile Image">
                         </div>
-                        <div class="col-8 px-4 d-flex flex-column gap-2 justify-content-center">
+                        <div class="col-12 col-md-8 px-4 d-flex flex-column gap-2 pt-3 pt-sm-0  justify-content-center">
                             <h4>Buscando mariposas bajo la luna nueva en El Yunque</h4>
                             <small class="text-uppercase text-muted d-block" style="font-size: 0.65rem;">Mónica Ivelisse Feliú-Mójer | Marzo 2, 2024</small>
                             <p class="card-text fw-normal">Iba caminando y pensando dos cosas: en que ya no aguantaba las piernas y en que quería ver un coquí. Llevábamos casi cuatro horas bosque adentro en El Yunque. Aunque quería mirar hacia arriba y apreciar el revolú de estrellas...</p>
@@ -185,7 +182,7 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-    <section class="pb-8">
+    <section class="pb-5 pb-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column">
@@ -209,6 +206,29 @@ include_once ('templates/breadcrumbs.php');
                 </div>
                 <div class="col-12 col-md-6 d-flex flex-column">
                     <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/video-placeholder.webp" alt="CienciaPr en YouTube">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-5 py-md-8 pattern-grey">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-md-10 bg-primary rounded-20 mx-auto">
+                    <div class="row mx-md-5 my-4 d-flex flex-column flex-md-row p-2">
+                        <div class="col col-md-6">
+                            <h2 class="fs-2 text-white">¡Es jueves de Ciencia Boricua!</h2>
+                        </div>
+                        <div class="col col-md-6">
+                            <p class="fs-7 text-white">Hoy celebramos el poder transformador de la ciencia hecha en y para Puerto Rico. Con cada historia, cada descubrimiento, y cada voz boricua en STEM, construimos un futuro más justo, sabio y resiliente.</p>
+                            <div class="col-md-6 text-center text-md-start social-icons d-flex flex-row gap-1">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-tiktok"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
