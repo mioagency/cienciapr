@@ -1,6 +1,8 @@
 .DS_Store
+.gitignore
 logs/
 conf/
 *.sql
 wp-config.php
 node_modules/
+css/
