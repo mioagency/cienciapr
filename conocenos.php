@@ -650,9 +650,11 @@ include_once('templates/breadcrumbs.php');
 	<!-- ============================================ -->
 	<!-- SECCIÓN: NOTICIAS SOBRE CIENCIA BORICUA -->
 	<!-- ============================================ -->
-	<?php
-		include_once('templates/noticias.php');
-	?>
+	<section class="container-fluid p-3 p-lg-6">
+		<?php
+			include_once('templates/noticias.php');
+		?>
+	</section>
 	<!-- ============================================ -->
 	<!-- SECCIÓN: PUBLICACIONES -->
 	<!-- ============================================ -->
