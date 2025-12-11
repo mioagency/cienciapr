@@ -2,7 +2,7 @@
 	<section class="container-fluid py-5">
 		<div class="row d-flex justify-content-center mb-5">
 			<div class="col-12 text-center">
-				<h2 class="fs-2 fw-bold text-body mb-3">Patrocinadores</h2>
+				<h2 class="fs-2 fw-bold text-body mb-3">Nuestros Patrocinadores</h2>
 				<p class="lead text-muted col-lg-8 mx-auto">CienciaPR trabaja de la mano con docenas de organizaciones locales e internacionales que apoyan su misión mediante alianzas, programas educativos, fondos y recursos.</p>
 			</div>
 		</div>

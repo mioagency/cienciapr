@@ -31,24 +31,25 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- SECCIÓN CONTENIDO PRINCIPAL -->
-    <section class="py-8">
+    <section class="py-5 py-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
-                <div class="col-12 col-md-6 d-flex flex-column gap-4">
-                    <div class="card bg-white rounded-20 p-5 h-100 d-flex flex-column justify-content-center">
+                <div class="col-12 col-md-6 d-flex flex-column">
+                    <div class="card border-0 bg-white rounded-20 p-5 flex-grow-1">
                         <div class="card-body p-0">
                             <h2 class="fs-2 fw-semibold">¿Tienes interés en una carrera científica?</h2>
                             <p class="fs-5 card-text fw-normal">En nuestras páginas encontrarás información sobre oportunidades de investigación y entrenamiento, becas, fondos y otros recursos que te ayudarán a familiarizarte con carreras científicas y adquirir la experiencia necesaria para lograr tus metas académicas y profesionales.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 d-flex">
-                    <img class="rounded-20 w-100 h-100 object-fit-cover" src="<?= SERVER_URI ?>images/educacion-2section.jpg" alt="Comunidad Ciencia Puerto Rico" >
+                <div class="col-12 col-md-6 d-flex flex-column">
+                    <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/educacion-2section.jpg" alt="Comunidad Ciencia Puerto Rico" >
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- INICIATIVAS -->
     <section class="py-8 bg-tertiary pattern-grey">
       <div class="container">
         <!-- CABECERA Y CONTROLES -->
@@ -179,32 +180,39 @@ include_once ('templates/breadcrumbs.php');
       </div>
     </section>
 
- <!-- ESPACIO PARA ANUNCIO -->
-    <?php include_once ('templates/fila-de-anuncio.php'); ?>
-
     <!-- SECCIÓN IMPACTO -->
-    <section class="my-7 bg-white">
+    <section class="bg-white pb-5 pb-md-0">
         <div class="container-fluid px-0">
             <div class="container-xxl px-4">
-                <div class="row gx-3 gy-4 gy-sm-0">
+                <div class="row gx-5 gy-4 gy-sm-0">
                     <!-- Columna 1 -->
-                    <div class="col-12 col-md-3">
-                        <h3>Título 1</h3>
-                        <p>Contenido de la columna 1</p>
+                    <div class="col-12 col-md-3 d-flex flex-column justify-content-center">
+                      <div class="border-bottom">
+                        <p class="fs-2 fw-semibold">30,000+</p>
+                        <p class="fs-5 fw-normal">Jóvenes alcanzados</p>
+                      </div>
+                      <div class="border-bottom">
+                        <p class="fs-2 fw-semibold">450+</p>
+                        <p class="fs-5 fw-normal">Actividades realizadas</p>
+                      </div>
+                      <div>
+                        <p class="fs-2 fw-semibold">120+</p>
+                        <p class="fs-5 fw-normal">Colaboradores</p>
+                      </div>
                     </div>
 
                     <!-- Columna 2 -->
-                    <div class="col-12 col-md-3">
-                        <img src="<?= SERVER_URI ?>images/educacion-seccion-numeros.jpg" alt="Descripción de imagen" class="w-100 h-100 object-fit-cover">
+                    <div class="col-12 col-md-4">
+                        <img src="<?= SERVER_URI ?>images/educacion-seccion-numeros.jpg" alt="Descripción de imagen" class="w-100 h-100 object-fit-cover rounded-20">
                     </div>
 
                     <!-- Columna 3 -->
-                    <div class="col-12 col-md-6">
-                        <h2 class="fs-2 fw-semibold">Impactando generaciones a través de la ciencia y la educación</h2>
+                    <div class="col-12 col-md-5 d-flex flex-column justify-content-center">
+                        <h2 class="fs-2 fw-semibold mb-md-3">Impactando generaciones a través de la ciencia y la educación</h2>
                         <p class="fs-5 card-text fw-normal">Ciencia Puerto Rico ha conectado a miles de estudiantes con experiencias que despiertan la curiosidad y fortalecen su aprendizaje. A través de programas, mentorías y recursos educativos, seguimos formando jóvenes comprometidos con el conocimiento y el futuro de la ciencia en Puerto Rico.</p>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conócenos</a>
+                                <a href="#" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Conócenos</a>
                             </div>
                         </div>
                     </div>
@@ -214,30 +222,30 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
 
-    <!-- SECCIÓN 3 COLUMNAS -->
-    <section class="py-7 bg-body">
+    <!-- RECURSOS -->
+    <section class="py-5 py-md-7 bg-body">
         <div class="container">
         
-            <div class="row mb-5">
+            <div class="row mb-3 mb-md-5">
                 <div class="col-12 text-center">
-                <h2 class="text-primary fw-bold text-dark">Avances científicos con impacto puertorriqueño</h2>
+                <h2 class="text-primary fw-bold text-dark">Explora nuestros recursos</h2>
                 </div>
             </div>
 
             <div class="row g-4">
                 <!-- Columna 1 -->
                 <div class="col-12 col-md-4">
-                    <img src="<?= SERVER_URI ?>/images/descubre_blog-1.webp" alt="Imagen descriptiva 1" class="mb-3 rounded blog_image-size-y">
+                    <img src="<?= SERVER_URI ?>/images/educacion-recursos-1.png" alt="Imagen descriptiva 1" class="mb-3 rounded blog_image-size-y">
 
                     <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
                     <div class="h-100 d-flex flex-column align-items-start">
                         <div class="d-flex flex-column justify-content-between align-items-start">
                             <div>
-                                <h4>Ciencia Puerto Rico presenta el libro Siembra tu Semilla de Triunfo</h4>
-                                <p>La publicación es una invitación a la juventud para descubrir el impacto transformador de las disciplinas STEM en sus vidas y comunidades...</p>
+                                <h4>Escuela primaria y secundaria</h4>
+                                <p>Explora oportunidades para crecer en la ciencia: ferias, campamentos, mentorías y más. Conoce Semillas de Triunfo, donde niñas se convierten en líderes e innovadoras.</p>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-primary">Leer más</a>
+                                <a href="#" class="btn btn-tertiary btn-lg fs-8 text-white">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -245,17 +253,17 @@ include_once ('templates/breadcrumbs.php');
 
                 <!-- Columna 2 -->
                 <div class="col-12 col-md-4">
-                    <img src="<?= SERVER_URI ?>/images/descubre_blog-2.webp" alt="Imagen descriptiva 2" class="img-fluid mb-3 rounded blog_image-size-y">
+                    <img src="<?= SERVER_URI ?>/images/educacion-recursos-2.png" alt="Imagen descriptiva 2" class="img-fluid mb-3 rounded blog_image-size-y">
 
                     <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
                     <div class="h-100 d-flex flex-column align-items-start">
                         <div class="d-flex flex-column justify-content-between align-items-start">
                             <div>
-                                <h4>El acetaminofén y el embarazo</h4>
-                                <p>Esta columna fue publicada en la sección de Opinión de El Nuevo Día como parte de la colaboración entre CienciaPR y ese medio...</p>
+                                <h4>Estudiantes Subgraduados o Post-bachillerato</h4>
+                                <p>Descubre programas de investigación de verano y post-bachillerato que te acercan a una carrera científica.</p>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-primary">Leer más</a>
+                                <a href="#" class="btn btn-tertiary btn-lg fs-8 text-white">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -263,37 +271,31 @@ include_once ('templates/breadcrumbs.php');
 
                 <!-- Columna 3 -->
                 <div class="col-12 col-md-4">
-                    <img src="<?= SERVER_URI ?>/images/descubre_blog-3.webp" alt="Imagen descriptiva 3" class="blog_image-size-y mb-3 rounded">
+                    <img src="<?= SERVER_URI ?>/images/educacion-recursos-3.png" alt="Imagen descriptiva 3" class="blog_image-size-y mb-3 rounded">
 
                     <!-- Se añade d-flex flex-column y align-items-center para estructura vertical -->
                     <div class="h-100 d-flex flex-column align-items-start">
                         <div class="d-flex flex-column justify-content-between align-items-start">
                             <div>
-                                <h4>Ni el Tylenol (ni las vacunas) causan autismo</h4>
-                                <p>El pasado lunes 22 de septiembre el presidente de los Estados Unidos Donald Trump afirmó falsamente que consumir acetaminofén o paracetamol (ingrediente activo en Tylenol...</p>
+                                <h4>Estudiantes graduados</h4>
+                                <p>Explora becas, mentorías y fondos diseñados para apoyar tu crecimiento académico y profesional en los estudios graduados.</p>
                             </div>
                             <div>
-                                <a href="#" class="btn btn-lg fs-8 btn-outline-secondary text-primary">Leer más</a>
+                                <a href="#" class="btn btn-tertiary btn-lg fs-8 text-white">Leer más</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-12 text-center">
-                    <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Únete a la comunidad</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-8">
+    <!-- COLABORACIONES -->
+    <section class="pb-5 py-md-8">
         <div class="container">
-            <div class="row gx-5 gy-4 align-items-stretch">
+            <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column gap-4">
-                    <div class="card bg-white rounded-20 p-5 h-100 d-flex flex-column justify-content-center">
+                    <div class="card bg-white border-0 rounded-20 p-5 h-100 d-flex flex-column justify-content-center">
                         <div class="card-body p-0">
                             <h2 class="fs-2 fw-semibold">Colaboramos para transformar la educación científica</h2>
                             <p class="fs-5 card-text fw-normal">Nuestro impacto es posible gracias a una red de organizaciones, universidades, escuelas y profesionales que comparten nuestra misión de acercar la ciencia a todas las comunidades.  
@@ -302,7 +304,7 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
+                                <a href="#" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
                             </div>
                         </div>
                     </div>
