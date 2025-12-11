@@ -1,0 +1,130 @@
+.participa-hero {
+  background-image: url("../images/bg-participa.webp");
+  background-size: cover;
+  background-position: center;
+}
+.calendar-bg {
+  background-image: url("../images/pattern-grey.png");
+  background-size: contain;
+  background-position: right 16vh;
+  background-repeat: no-repeat;
+}
+/* Calendario */
+/* Celdas */
+.calendar-cell {
+  width: 167px;
+  height: 118px;
+  border: 1px solid #eee;
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Número arriba derecha */
+.day-number {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #003366;
+}
+
+/* Texto de evento */
+.event-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  color: #c00;
+  font-weight: 600;
+}
+
+/* Scroll móvil */
+.calendar-scroll {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.calendar-scroll .row {
+  flex-wrap: nowrap;
+}
+
+/* Meses */
+.calendar-month {
+  display: none;
+}
+.calendar-month.active {
+  display: block;
+}
+
+/* Flechas */
+#prevMonth,
+#nextMonth {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+/* ===== FIX PRINCIPAL RESPONSIVE ===== */
+
+/* Cada fila debe ocupar su ancho total real */
+.calendar-scroll .row {
+  flex-wrap: nowrap;
+  width: max-content; /* <— fuerza ancho natural de las celdas */
+}
+
+/* La caja que hace scroll toma todo el ancho disponible */
+.calendar-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+/* Cada celda mantiene tamaño fijo */
+.calendar-cell {
+  flex: 0 0 167px !important;
+  width: 167px;
+  height: 118px;
+  position: relative;
+  padding: 8px;
+}
+
+/* Número del día arriba a la derecha */
+.calendar-cell .day-number {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-weight: 700;
+  color: #0d3b66 !important;
+}
+
+/* Texto del evento */
+.calendar-cell .event-text {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  font-size: 0.75rem;
+  color: #c00;
+  max-width: 90%;
+  white-space: normal;
+}
+
+/* ===== OPTIMIZACIÓN MOBILE ===== */
+@media (max-width: 576px) {
+  .calendar-cell {
+    height: 110px;
+  }
+
+  .calendar-cell .day-number {
+    font-size: 0.9rem;
+  }
+
+  .calendar-cell .event-text {
+    font-size: 0.7rem;
+  }
+
+  #calendar-title {
+    font-size: 1.25rem;
+  }
+}
