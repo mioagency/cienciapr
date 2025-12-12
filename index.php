@@ -30,15 +30,15 @@ include_once ('templates/header.php'); ?>
 
      <!-- Banner 2 Columnas -->
     <div class="container-fluid p-0"> 
-      <div class="row g-0 align-items-center bg-primary -ms-3 -me-3 bg-opacity-75">
+      <div class="row g-0 align-items-center bg-primary -ms-3 -me-3 bg-opacity-75 difuminado-10">
         <div class="col-12 col-lg-6 p-5 border-end border-white">
           <p class="fs-4 fw-light lh-base">Únete a los sobre 15,000 científicos, estudiantes, educadores y aliados construyendo un futuro más justo y próspero desde la ciencia.</p>
         </div>
         <div class="col-12 col-lg-6 p-4">
           <h3 class="fs-4 fw-bold">¿Quieres respaldar este movimiento?</h3>
           <div class="p-4 rounded bg-white bg-opacity-25 d-flex justify-content-between align-items-center">
-            <p class="fw-light fs-7 m-0">Haz tu donación libre de impuestos y amplifica nuestro impacto.</p>
-            <a href="#" class="btn btn-success btn-lg fw-bold text-dark fs-7">Donar aquí</a>
+            <p class="fw-light fs-7 m-0 me-4">Haz tu donación libre de impuestos y amplifica nuestro impacto.</p>
+            <a href="#" class="btn btn-success btn-lg fw-bold text-dark fs-7 text-nowrap">Donar aquí</a>
           </div>
         </div>
       </div>
@@ -251,7 +251,7 @@ include_once ('templates/header.php'); ?>
           <div class="card-body">
             <h2 class="fs-1 fw-bold">Únete a nuestra comunidad de la <span class="text-primary">#CienciaBoricua</span></h2>
             <p class="fs-5 card-text">El arma secreta de CienciaPR es su talentosa, dedicada y diversa red de miembros. Crea tu perfil, crece tu comunidad, participa de eventos, y descubre oportunidades para impulsar la ciencia en beneficio de Puerto Rico.</p>
-            <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Únete a la comunidad</a>
+            <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3 mt-3">Únete a la comunidad</a>
           </div>
         </div>
         <img src="<?= SERVER_URI ?>images/1-comunidad.webp" alt="Comunidad Ciencia Puerto Rico">
