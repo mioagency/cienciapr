@@ -5,6 +5,7 @@ $talento-y-liderazgo-bg-hero: url("../images/bg-conocenos.webp");
 $comunicacion-iniciativas-comunitarias-bg-hero: url("../images/comunicacion-iniciativas-comunitarias-bg-hero.jpg");
 $politicas-bg-hero: url("../images/politicas-bg.jpg");
 $normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
+$donativos-bg-hero: url("../images/donativos-bg-hero.jpg");
 
 .bg-img_talento-y-liderazgo {
   background-image: $talento-y-liderazgo-bg-hero; 
@@ -17,6 +18,9 @@ $normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
 }
 .bg-img-normas-comunidad {
     background-image: $normas-comunidad-bg-hero;
+}
+.bg-img-donativos {
+    background-image: $donativos-bg-hero;
 }
 
 .loop-element-border > div {
@@ -38,6 +42,7 @@ $normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
 }
 
 // UTILITIES
+// ===========================
 .bg-cover {background-size: cover;}
 .bg-center {background-position: center;}
 .mw-100 {max-width:1000px;}
@@ -54,7 +59,9 @@ $normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
     color: var(--bs-primary);
 }
 
+
 // PAGINA CIENCIA BORICUA
+// ===========================
 #ciencia-boricua {
     h2 {
         color:white !important;
@@ -73,5 +80,19 @@ $normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
     vertical-align: middle;
 }
 // FIN DE PAGINA
+
+
+// PAGINA DONACIONES
+// ===========================
+section#opciones-donaciones img {
+    max-height: 80px;
+}
+
+@media (min-width: 768px) {
+    #opciones-donaciones .row div.col-12:nth-child(3),
+    #opciones-donaciones .row div.col-12:nth-child(4) {
+        border-left: 1px solid #1e1e1e;
+    }
+}
 
 
