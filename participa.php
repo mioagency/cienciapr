@@ -333,7 +333,7 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</div>
-	<div class="container bg-light p-3 p-md-6 rounded-20 mb-7">
+	<div class="container bg-light p-3 p-md-6 rounded-20 mb-7" style="max-width:1300px">
 
         <!-- Título + Navegación -->
         <div class="d-flex justify-content-between align-items-center mb-4">
