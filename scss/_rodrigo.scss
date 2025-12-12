@@ -1,5 +1,14 @@
+/* Utilidades */
+.difuminado-10 {
+  backdrop-filter: blur(10px);
+}
 .participa-hero {
   background-image: url("../images/bg-participa.webp");
+  background-size: cover;
+  background-position: center;
+}
+.unete-hero {
+  background-image: url("../images/bg-unete.webp");
   background-size: cover;
   background-position: center;
 }
