@@ -4,6 +4,7 @@
 $talento-y-liderazgo-bg-hero: url("../images/bg-conocenos.webp");
 $comunicacion-iniciativas-comunitarias-bg-hero: url("../images/comunicacion-iniciativas-comunitarias-bg-hero.jpg");
 $politicas-bg-hero: url("../images/politicas-bg.jpg");
+$normas-comunidad-bg-hero: url("../images/normas-comunidad-bg-hero.jpg");
 
 .bg-img_talento-y-liderazgo {
   background-image: $talento-y-liderazgo-bg-hero; 
@@ -13,6 +14,9 @@ $politicas-bg-hero: url("../images/politicas-bg.jpg");
 }
 .bg-img-politicas {
     background-image: $politicas-bg-hero;
+}
+.bg-img-normas-comunidad {
+    background-image: $normas-comunidad-bg-hero;
 }
 
 .loop-element-border > div {
