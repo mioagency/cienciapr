@@ -3,13 +3,16 @@
 // ================================
 $talento-y-liderazgo-bg-hero: url("../images/bg-conocenos.webp");
 $comunicacion-iniciativas-comunitarias-bg-hero: url("../images/comunicacion-iniciativas-comunitarias-bg-hero.jpg");
-
+$politicas-bg-hero: url("../images/politicas-bg.jpg");
 
 .bg-img_talento-y-liderazgo {
   background-image: $talento-y-liderazgo-bg-hero; 
 }
 .bg-img_comunicacion-iniciativas {
   background-image: $comunicacion-iniciativas-comunitarias-bg-hero; 
+}
+.bg-img-politicas {
+    background-image: $politicas-bg-hero;
 }
 
 .loop-element-border > div {
