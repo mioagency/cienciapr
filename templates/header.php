@@ -21,6 +21,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="<?= SERVER_URI ?>css/main.css" rel="stylesheet">
+    <link href="<?= SERVER_URI ?>css/winsgton.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
@@ -40,9 +41,9 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
     <div class="container d-flex justify-content-end align-items-center py-2">
       <a href="#" class="text-light text-decoration-none me-3"><i class="fas fa-search"></i></a>
       <a href="#" class="text-light text-decoration-none me-3">Inglés</a>
-      <a href="#" class="text-light text-decoration-none me-3"><i class="fas fa-user-plus me-1"></i> Únete</a>
+      <a href="<?= SERVER_URI ?>register.php"" class="text-light text-decoration-none me-3"><i class="fas fa-user-plus me-1"></i> Regístrate</a>
       <a href="#" class="text-light text-decoration-none me-3"><i class="fas fa-user me-1"></i> Mi cuenta</a>
-      <a href="#" class="text-light text-decoration-none"><i class="fas fa-arrow-right-to-bracket me-1"></i> Ingresar</a>
+      <a href="<?= SERVER_URI ?>login.php"" class="text-light text-decoration-none"><i class="fas fa-arrow-right-to-bracket me-1"></i> Ingresar</a>
     </div>
   </div>
   <!-- FIN: Topbar -->

@@ -7,9 +7,9 @@ $page = "inicia sesion";
 include_once ('templates/header.php'); 
 ?>
 
+
 <main>
 
-    
     <!-- SECCIÓN CONTENIDO PRINCIPAL -->
     <section class="container py-5 py-md-8">
         <div class="row justify-content-center">
@@ -19,14 +19,14 @@ include_once ('templates/header.php');
                 <form method="POST" action="">
                     <!-- Username Field -->
                     <div class="mb-3">
-                        <label for="username" class="form-label">Alias o correo electrónico</label>
+                        <label for="username" class="form-label fw-bold">Alias o correo electrónico</label>
                         <p class="text-muted small mb-2">Puedes iniciar sesión con tu nombre de usuario asignado o con tu dirección de correo electrónico.</p>
                         <input type="text" class="form-control bg-white" id="username" name="username" required>
                     </div>
 
                     <!-- Password Field -->
                     <div class="mb-3">
-                        <label for="password" class="form-label">Contraseña</label>
+                        <label for="password" class="form-label fw-bold">Contraseña</label>
                         <p class="text-muted small mb-2">El campo de contraseña distingue entre mayúsculas y minúsculas.</p>
                         <input type="password" class="form-control bg-white" id="password" name="password" required>
                     </div>
@@ -47,7 +47,7 @@ include_once ('templates/header.php');
                     <!-- Links -->
                     <div class="d-flex justify-content-between">
                         <a href="register.php">Regístrate</a>
-                        <a href="forgot-password.php">¿Olvidaste tu contraseña?</a>
+                        <a href="password.php">¿Olvidaste tu contraseña?</a>
                     </div>
                 </form>
             </div>
