@@ -31,7 +31,7 @@ include_once ('templates/breadcrumbs.php');
         
     </section>
     
-    <section class="py-7">
+    <section id="convocatorias" class="py-7">
 			<div class="container">
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
@@ -162,7 +162,7 @@ include_once ('templates/breadcrumbs.php');
 				</div>
 		</div>
 	</section>
-	<section class="py-8 bg-light">
+	<section id="foro-oportunidades" class="py-8 bg-light">
         <div class="container">
             <div class="row gx-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column gap-4">
@@ -321,7 +321,7 @@ include_once ('templates/breadcrumbs.php');
 		</div>
 	</section>
 <!-- Calendario -->
-<section class="container-fluid bg-primary py-7 calendar-bg">
+<section id="seccion-eventos" class="container-fluid bg-primary py-7 calendar-bg">
 	<div class="container pb-7">
 		<div class="row">
 			<div class="col-12 col-md-4">

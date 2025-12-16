@@ -51,7 +51,7 @@ include_once('templates/breadcrumbs.php');
 		</div>
 	</section>
 
-	<section class="container-fluid pt-2 pb-5 pb-lg-8">
+	<section id="mision-vision-valores" class="container-fluid pt-2 pb-5 pb-lg-8">
 		<h2 class="fs-2 fw-bold text-center mb-5">Principios que impulsan nuestro trabajo</h2>
 		<div class="container">
 			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pt-3">
@@ -120,7 +120,7 @@ include_once('templates/breadcrumbs.php');
 	</section>
 
 	<!-- SECCIÓN: NUESTRO EQUIPO (TABS) -->
-	<section class="container-fluid p-3 p-lg-6">
+	<section id="nuestro-equipo" class="container-fluid p-3 p-lg-6">
 		<div class="p-4 p-lg-6 bg-primary text-white rounded-20">
 			<h2 class="fs-2 fw-bold text-white text-center mb-4">Nuestro equipo</h2>
 
@@ -457,7 +457,7 @@ include_once('templates/breadcrumbs.php');
 	</section>
 
 	<!-- SECCIÓN: PATROCINADORES -->
-	<section class="container-fluid py-5">
+	<section id="nuestros-patrocinadores" class="container-fluid py-5">
 		<div class="row d-flex justify-content-center mb-5">
 			<div class="col-12 text-center">
 				<h2 class="fs-2 fw-bold text-body mb-3">Patrocinadores</h2>
@@ -522,7 +522,7 @@ include_once('templates/breadcrumbs.php');
 	</section>
 
 	<!-- SECCIÓN: COMUNICADOS DE PRENSA -->
-	<section class="container-fluid bg-primary py-5">
+	<section id="comunicados-prensa" class="container-fluid bg-primary py-5">
 		<div class="container">
 			
 			<!-- CABECERA DE LA SECCIÓN (TÍTULO Y BOTONES) -->
@@ -650,7 +650,7 @@ include_once('templates/breadcrumbs.php');
 	<!-- ============================================ -->
 	<!-- SECCIÓN: NOTICIAS SOBRE CIENCIA BORICUA -->
 	<!-- ============================================ -->
-	<section class="container-fluid p-3 p-lg-6">
+	<section id="noticias-boricua" class="container-fluid p-3 p-lg-6">
 		<?php
 			include_once('templates/noticias.php');
 		?>
@@ -664,7 +664,7 @@ include_once('templates/breadcrumbs.php');
 	<!-- ============================================ -->
 	<!-- SECCIÓN: REPORTES (TABS) -->
 	<!-- ============================================ -->
-	<section class="container-fluid bg-light pt-5 p-lg-6">
+	<section id="reportes-anuales" class="container-fluid bg-light pt-5 p-lg-6">
 		<div class="container">
 			<h2 class="fs-2 fw-bold text-body text-center mb-4">Reportes Anuales</h2>
 
@@ -1476,7 +1476,11 @@ include_once('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid pt-5 p-lg-6">
+
+	<!-- ============================================ -->
+	<!-- SECCIÓN: SERVICIOS -->
+	<!-- ============================================ -->
+	<section id="servicios-contrataciones" class="container-fluid pt-5 p-lg-6">
 		<h2 class="fs-2 fw-bold text-body text-center mb-4">Nuestros Servicios</h2>
 		<div class="container">
 			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pt-3">
