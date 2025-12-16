@@ -544,7 +544,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Donativos</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="#">Donativos individuales</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php">Donativos individuales</a></li>
                               <li><a class="dropdown-item px-0" href="#">Programa de donativos recurrentes</a></li>
                               <li><a class="dropdown-item px-0" href="#">Duplicación de donativos</a></li>
                               <li><a class="dropdown-item px-0" href="#">Embajadores de CienciaPR</a></li>

@@ -210,7 +210,7 @@ include_once ('templates/breadcrumbs.php');
             </div>
         </div>
     </section>
-    <section class="pb-5 py-md-8 pattern-grey">
+    <section class="pb-5 py-md-8 pattern-grey-2">
         <div class="container">
             <div class="row p-3">
                 <div class="col-md-10 bg-primary rounded-20 mx-auto">

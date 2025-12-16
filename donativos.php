@@ -88,30 +88,218 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
+    <!-- SECCIÓN: SEMBRADORES CONOCIMIENTO (TABS) -->
+	<section id="nuestro-equipo" class="container-fluid p-3 p-lg-6">
+		<div class="p-4 p-lg-6 bg-primary text-white rounded-20">
+			<h2 class="fs-2 fw-bold text-white text-center mb-4">Sembradores de conocimiento</h2>
 
-    <section class="py-5 py-md-8 bg-primary pattern-grey">
-        <div class="container">
-            <div class="row gx-md-5">
-                <div class="col-12 col-md-6 mx-auto text-center text-white mb-md-5">
-                    <h2 class="fs-2 fw-medium">Exhortamos a nuestros miembros y participantes en nuestras redes a:</h2>
-                </div>
-                <div class="col-12 d-flex flex-column gap-4">
-                     <div class="card border-0 bg-white rounded-20 p-5">
-                        <div class="card-body p-0">
-                            <h3 class="fs-4 fw-semibold">Interactuar de manera civil</h3>
-                            <p class="mb-0 fs-5 card-text fw-light">Es normal que surjan debates con diferentes puntos de vista, que pueden ser útiles para expandir conocimientos. Comunícate con consideración y recuerda que las oportunidades para malentendidos en las plataformas digitales son mayores.</p>                    
+			<!-- Contenedor para scroll horizontal de pestañas en móvil -->
+			<div class="d-flex overflow-x-auto mb-5">
+				<!-- Tabs/Pestañas de Navegación -->
+				<ul class="nav nav-pills flex-nowrap mx-auto" id="sembradoresTabs" role="tablist" style="width: max-content;">
+					<li class="nav-item mx-2 flex-shrink-0" role="presentation">
+						<button class="btn btn-outline-light active text-nowrap" id="staff-tab" data-bs-toggle="tab" data-bs-target="#complices-content" type="button" role="tab" aria-controls="complices-content" aria-selected="true">Complices</button>
+					</li>
+					<li class="nav-item mx-2 flex-shrink-0" role="presentation">
+						<button class="btn btn-outline-light text-nowrap" id="embajadores-tab" data-bs-toggle="tab" data-bs-target="#embajadores-content" type="button" role="tab" aria-controls="embajadores-content" aria-selected="false">Embajadores</button>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Contenido de las Pestañas -->
+			<div class="tab-content" id="teamTabContent">
+				
+				<!-- Contenido: Staff (Activo por defecto) -->
+				<div class="tab-pane fade show active" id="complices-content" role="tabpanel" aria-labelledby="staff-tab">
+                    <div class="row gx-md-5 gy-4 align-items-stretch">
+                        <div class="col-12 col-md-6 d-flex flex-column">
+                            <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donativos-sembradores-conocimiento.png" alt="Estudiantes y profesor observando a través de un microscopio" >
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <div class="p-5">
+                                <div class="p-0">
+                                    <h2 class="fs-2 fw-semibold mb-3">Cómplices de la ciencia boricua</h2>
+                                    <p class="fs-5 card-text fw-normal mb-4">Una comunidad de donantes de CienciaPR, que por medio de su donativo recurrente, demuestra un compromiso con el desarrollo de la ciencia y la educación en el archipiélago.</p>
+                                    <a href="#" class="btn btn-success text-dark btn-lg fs-7">se parte del cambio</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card border-0 bg-white rounded-20 p-5">
-                        <div class="card-body p-0">
-                            <h3 class="fs-4 fw-semibold">Practicar la inclusividad</h3>
-                            <p class="mb-0 fs-5 card-text fw-light">Queremos inspirar a todas las personas de nuestra comunidad con la emoción de la ciencia, sobre todo a grupos que históricamente han sido excluidos. Utiliza el lenguaje inclusivo, por ejemplo, honrando los pronombres adecuados al referirte a una persona (y si no los conoces pregunta), evitando términos o prácticas capacitistas, etc. Puedes obtener más información sobre pronombres y lenguaje inclusivo que nos ofrece la Sombrilla Cuir. El lenguaje también sostiene el racismo, por eso promovemos el uso de lenguaje antirracista que busca desmantelar un sistema anti-negro. Te animamos a leer la Guía de Lenguaje Inclusivo y Antirracista de MPA.</p>                    
+				</div>
+
+				<!-- Contenido: Equipo Operativo (Replicando estructura y alterando orden) -->
+				<div class="tab-pane fade" id="embajadores-content" role="tabpanel" aria-labelledby="embajadores-tab">
+                    <div class="row gx-md-5 gy-4 align-items-stretch">
+                        <div class="col-12 col-md-6 d-flex flex-column">
+                            <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donativos-sembradores-conocimiento.png" alt="Estudiantes y profesor observando a través de un microscopio" >
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <div class="p-5">
+                                <div class="p-0">
+                                    <h2 class="fs-2 fw-semibold mb-3">Embajadores de la ciencia boricua</h2>
+                                    <p class="fs-5 card-text fw-normal mb-4">Una comunidad de donantes de CienciaPR, que por medio de su donativo recurrente, demuestra un compromiso con el desarrollo de la ciencia y la educación en el archipiélago.</p>
+                                    <a href="#" class="btn btn-success text-dark btn-lg fs-7">se parte del cambio</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+				</div>
+
+				<!-- Contenido: Equipo Administrativo (Replicando estructura y alterando orden) -->
+				<div class="tab-pane fade" id="admin-content" role="tabpanel" aria-labelledby="admin-tab">
+					<!-- INICIO: Scroll Horizontal para Cards en Móviles -->
+					<div class="row g-4 flex-nowrap overflow-x-auto pb-3">
+						<!-- Tarjeta Miembro 4 (Pedro Caraballo) - Orden 1 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/4-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Pedro Caraballo</h5>
+									<p class="card-text small text-muted">Relaciones Públicas (Administrativo)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 1 (Melissa Mendez) - Orden 2 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/1-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Melissa Mendez</h5>
+									<p class="card-text small text-muted">Relaciones Públicas (Administrativo)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 2 (Antonio Martínez) - Orden 3 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/2-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Antonio Martínez</h5>
+									<p class="card-text small text-muted">Presidente (Administrativo)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 3 (Marcela Medina) - Orden 4 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/3-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Marcela Medina</h5>
+									<p class="card-text small text-muted">Recursos Humanos (Administrativo)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-success fs-6">Cargar más miembros</a></div>
+				</div>
+
+				<!-- Contenido: Pasados Voluntarios (Replicando estructura y alterando orden) -->
+				<div class="tab-pane fade" id="past-content" role="tabpanel" aria-labelledby="past-tab">
+					<!-- INICIO: Scroll Horizontal para Cards en Móviles -->
+					<div class="row g-4 flex-nowrap overflow-x-auto pb-3">
+						<!-- Tarjeta Miembro 2 (Antonio Martínez) - Orden 1 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/2-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Antonio Martínez</h5>
+									<p class="card-text small text-muted">Presidente (Voluntario)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 4 (Pedro Caraballo) - Orden 2 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/4-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Pedro Caraballo</h5>
+									<p class="card-text small text-muted">Relaciones Públicas (Voluntario)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 3 (Marcela Medina) - Orden 3 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/3-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Marcela Medina</h5>
+									<p class="card-text small text-muted">Recursos Humanos (Voluntario)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Tarjeta Miembro 1 (Melissa Mendez) - Orden 4 -->
+						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
+							<div class="card h-100 overflow-hidden border-0">
+								<img src="<?= SERVER_URI ?>/images/1-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
+								<div class="card-body p-4 text-start">	
+									<h5 class="card-title fs-5 fw-bold mb-1">Melissa Mendez</h5>
+									<p class="card-text small text-muted">Relaciones Públicas (Voluntario)</p>
+									<hr class="border-primary border-1 mt-3 mb-3">
+									<div class="d-flex gap-2 justify-content-center">
+										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
+										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-success fs-6">Cargar más miembros</a></div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
     <!-- APORTACION PATRONO -->
     <section class="pt-5 pt-md-8">
@@ -152,7 +340,7 @@ include_once ('templates/breadcrumbs.php');
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6">
-                    <img class="flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/Amazon Wishlist-logo.svg" alt="Logo de Amazon Wishlist" >
+                    <img class="flex-grow-1 object-fit-cover w-75" src="<?= SERVER_URI ?>images/Amazon Wishlist-logo.svg" alt="Logo de Amazon Wishlist" >
                 </div>
                 <div class="col-12 col-md-6 d-flex flex-column">
                     <div class="card border-0 flex-grow-1">
@@ -214,10 +402,84 @@ include_once ('templates/breadcrumbs.php');
 
     <section class="py-5 py-md-8">
         <div class="container">
-            <div class="row mb-md-5">
+            <div class="row mb-3 mb-md-5">
                 <div class="col-12 col-md-7 mx-auto text-center">
                     <h2 class="fs-2 fw-semibold mb-4">Compra con propósito</h2>
                     <p class="fs-5 card-text fw-light">Nuestros artículos no son solo productos: son herramientas para inspirar aprendizaje y apoyar la ciencia en comunidades. Tu compra deja huella.</p>
+                </div>
+            </div>
+            <div class="row d-flex gap-4 gap-sm-0">
+                <!-- ITEM 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                        <div class="col-12 bg-primary rounded-2 d-flex flex-column justify-content-center align-items-center" style="min-height:300px;">
+                            <img src="<?= SERVER_URI ?>images/donativos-carrito.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
+                            <p class="fs-4 fw-bold text-white mb-0">Tiendita de Cienca PR</p>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <p class="text-start fs-7">Compra con cada artículo que adquieres apoya la educación científica en Puerto Rico y visítala y lleva contigo el orgullo de nuestra comunidad.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Visitar la tienda</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ITEM 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                        <div class="col-12 bg-info rounded-2 d-flex flex-column justify-content-center align-items-center" style="min-height:300px;">
+                            <img src="<?= SERVER_URI ?>images/donativos-book.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
+                            <p class="fs-4 fw-bold text-white mb-0">Nuestros libros</p>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <p class="text-start fs-7">Tu apoyo nos permite crear publicaciones que conectan la ciencia, cultura puertorriqueña. Llegan a más estudiantes, maestros y comunidades.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Ver libros</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ITEM 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
+                        <div class="col-12 bg-tertiary rounded-2 d-flex flex-column justify-content-center align-items-center" style="min-height:300px;">
+                            <img src="<?= SERVER_URI ?>images/donativos-megafono.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
+                            <p class="fs-4 fw-bold text-white mb-0">Anuncios</p>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <p class="text-start fs-7">Un mensaje que conecta ciencia y comunidad, acercando oportunidades a quienes más lo necesitan.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-lg fs-8 text-white">Ver propuestas en PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5 py-md-8 pattern-grey-2 pg-centered">
+        <div class="container">
+            <div class="row mx-1 mx-sm-0">
+                <div class="col-md-10 bg-primary rounded-20 mx-auto p-4 p-md-5">
+                    <div class="row d-flex flex-column flex-md-row gap-4 gap-md-0">
+                        <div class="col col-md-6">
+                            <h2 class="fs-2 text-white mb-3">Alianzas y voluntariado</h2>
+                            <p class="text-white fw-normal card-text fs-5">Construimos puentes con organizaciones, empresas y personas comprometidas con la ciencia y la educación. A través de alianzas estratégicas y el voluntariado, multiplicamos nuestro impacto y acercamos oportunidades a más comunidades.</p>
+                            <a href="#" class="btn btn-success text-darkwhite btn-lg fs-7 me-3">Hazte parte</a>
+                        </div>
+                        <div class="col col-md-6">
+                            <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donativos-top.png" alt="Grupo de profesionales saludando" >
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

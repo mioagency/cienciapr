@@ -7,12 +7,16 @@
     <div class="row g-4 align-items-stretch">
       <div class="col-12 col-lg-6">
         <div class="card h-100 shadow-sm border-0 rounded-3 bg-white">
-          <div class="card-img-top d-flex align-items-end p-3 bg-cover bg-center" style="height: 300px; background-image: url('<?= SERVER_URI ?>images/1-noticias.jpg');">
-            <span class="badge fw-medium bg-success text-dark px-3 py-2">Noticias Científicas</span>
-          </div>
+          <a href="<?= SERVER_URI ?>post.php?id=<?= $post['id'] ?>" class="text-decoration-none position-relative d-block">
+            <div class="card-img-top d-flex align-items-end p-3 bg-cover bg-center" style="height: 300px; background-image: url('<?= SERVER_URI ?>images/1-noticias.jpg');">
+              <a href="<?= SERVER_URI ?>category.php?id=<?= $post['category_id'] ?>" class="badge fw-medium bg-success text-dark px-3 py-2 text-decoration-none position-relative" style="z-index: 1;">Noticias Científicas</a>
+            </div>
+          </a>
           <div class="card-body d-flex flex-column justify-content-between p-4">
             <div>
-              <h3 class="card-title fw-bold mb-3">Jóvenes puertorriqueños representarán a Puerto Rico en la Feria Internacional MILSET en Abu Dhabi</h3>
+              <a href="<?= SERVER_URI ?>post.php?id=<?= $post['id'] ?>" class="text-decoration-none text-dark">
+                <h3 class="card-title fw-bold mb-3">Jóvenes puertorriqueños representarán a Puerto Rico en la Feria Internacional MILSET en Abu Dhabi</h3>
+              </a>
               <p class="card-text text-muted fs-6">Tres jóvenes científicos de Puerto Rico viajarán para representar a la isla en una competencia internacional de ciencia...</p>
             </div>
             <div class="mt-3">
