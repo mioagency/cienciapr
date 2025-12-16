@@ -217,9 +217,9 @@ $icon-pattern: url("../images/pattern-grey.png");
 
 .pattern-grey {
   position: relative;
-  z-index: -2;
+  z-index: 1;
 
-  &::before {
+  &::after {
     content: "";
     background-image: $icon-pattern;
     position: absolute;

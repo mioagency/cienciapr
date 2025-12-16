@@ -147,7 +147,7 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-
+    <!-- AMAZON WISHLIST -->
     <section class="pt-5 pt-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
@@ -198,13 +198,26 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
     
+    <!-- CORPORATIVO -->
     <section class="bg-primary py-5 p-md-8">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-7 mx-auto text-center">
                     <h2 class="fs-2 fw-semibold text-white">Donativo Corporativo</h2>
-                    <p class="fs-5 fw-normal text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
+                    <p class="fs-5 fw-light text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
                     <a href="#" class="btn btn-success text-dark btn-lg fs-7">Haz tu aporte a la ciencia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 py-md-8">
+        <div class="container">
+            <div class="row mb-md-5">
+                <div class="col-12 col-md-7 mx-auto text-center">
+                    <h2 class="fs-2 fw-semibold mb-4">Compra con propósito</h2>
+                    <p class="fs-5 card-text fw-light">Nuestros artículos no son solo productos: son herramientas para inspirar aprendizaje y apoyar la ciencia en comunidades. Tu compra deja huella.</p>
                 </div>
             </div>
         </div>
