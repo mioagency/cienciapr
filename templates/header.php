@@ -365,7 +365,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Descubre" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'descubre') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>descubre.php" id="descubreDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'descubre') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>ciencia-boricua.php" id="descubreDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
                 Descubre <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="descubreDropdown">

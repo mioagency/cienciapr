@@ -1,3 +1,18 @@
+
+/* Scroll to Top Button */
+const scrollToTopBtn = document.getElementById("scrollToTop");
+
+if (scrollToTopBtn) {
+  // Scroll to top when button is clicked
+  scrollToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+}
+
+
 const container = document.getElementById("sliderContainer");
 const btnPrev = document.getElementById("btnPrev");
 const btnNext = document.getElementById("btnNext");
@@ -36,3 +51,4 @@ document.getElementById("prev-month").addEventListener("click", () => {
   months[current].style.display = "block";
   title.textContent = months[current].dataset.title;
 });
+

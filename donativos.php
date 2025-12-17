@@ -336,7 +336,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- AMAZON WISHLIST -->
-    <section class="pt-5 pt-md-8">
+    <section class="pt-5 py-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6">
@@ -355,32 +355,6 @@ include_once ('templates/breadcrumbs.php');
                             <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Explorar la lista de recursos</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCIÓN DONATIVO -->
-    <section class="py-5 py-md-8">
-        <div class="container">
-            <div class="row gx-md-5 gy-4 align-items-stretch">
-                <div class="col-12 col-md-6 d-flex flex-column gap-4">
-                    <div class="card bg-white border-0 rounded-20 p-5 h-100 d-flex flex-column">
-                        <div class="p-0">
-                            <h2 class="fs-2 fw-semibold">Apóyanos con tu donativo</h2>
-                            <p class="fs-5 card-text fw-normal">Preferimos recibir tu donativo a través de Givebutter, una plataforma segura que acepta pagos con tarjetas de crédito, PayPal, Venmo y ACH.</p>
-                        </div>
-                        <div class="row mt-5">
-                            <div class="col-12">
-                                <a href="http://givebutter.com/Tt7CRd" class="me-3">
-                                    <img src="<?= SERVER_URI ?>images/Givebutter-logo.svg" alt="Logo de plafaorma de donaciones Givebuttero" >
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donativos-top.png" alt="Grupo de profesionales saludando" >
                 </div>
             </div>
         </div>
