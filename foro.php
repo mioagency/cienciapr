@@ -82,8 +82,198 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 
 			<!-- Contenido de las tablas -->
-			<div class="container">
-				<p class="lead">Por acá se colocará la tabla</p>
+			<div class="container px-0 px-md-3">
+
+				<!-- Forum Posts Table -->
+				<div class="table-responsive rounded-3">
+					<table class="table table-hover align-middle bg-white mb-0" style="min-width: 800px;">
+						<thead class="table-light">
+							<tr>
+								<th scope="col" class="fw-semibold" style="min-width: 250px;">Subject</th>
+								<th scope="col" class="fw-semibold" style="min-width: 150px;">Author</th>
+								<th scope="col" class="fw-semibold" style="min-width: 120px;">Replies</th>
+								<th scope="col" class="fw-semibold" style="min-width: 180px;">Posted in</th>
+								<th scope="col" class="fw-semibold" style="min-width: 100px;">Deadline</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!-- Sample forum post - Replace with PHP loop -->
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Oportunidad de investigación en biología marina</a></td>
+								<td>María González</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Empleos STEM</span></td>
+								<td>2025-12-28</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Becas para estudiantes de posgrado en química</a></td>
+								<td>Dr. Carlos Rodríguez</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Estudiantes de posgrado & profesionales</span></td>
+								<td>2026-01-15</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Conferencia anual de ciencias ambientales 2026</a></td>
+								<td>Ana Torres</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Discusión General</span></td>
+								<td>2026-03-20</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Recursos didácticos para enseñar física en K-12</a></td>
+								<td>Prof. Luis Martínez</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Profesores & K-12</span></td>
+								<td>2025-12-30</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Posición postdoctoral en neurociencias disponible</a></td>
+								<td>Dra. Isabel Sánchez</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Postdoctorados</span></td>
+								<td>2026-01-10</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Taller de programación en Python para análisis de datos</a></td>
+								<td>Dr. Roberto Pérez</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Estudiantes de posgrado & profesionales</span></td>
+								<td>2026-02-05</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Proyecto colaborativo en energías renovables</a></td>
+								<td>Ing. Carmen Rivera</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Discusión General</span></td>
+								<td>2026-01-25</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Oportunidad de pasantía en farmacología</a></td>
+								<td>Dr. José Morales</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Empleos STEM</span></td>
+								<td>2026-02-15</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Simposio de biotecnología y genética 2026</a></td>
+								<td>Dra. Patricia Vega</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Discusión General</span></td>
+								<td>2026-03-10</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Guía para escribir propuestas de investigación exitosas</a></td>
+								<td>Prof. Miguel Ortiz</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Estudiantes de posgrado & profesionales</span></td>
+								<td>2026-01-20</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Recursos para enseñar ciencias naturales en primaria</a></td>
+								<td>Profa. Elena Díaz</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Profesores & K-12</span></td>
+								<td>2026-02-01</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Vacante de investigador en cambio climático</a></td>
+								<td>Dr. Fernando Ramos</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Empleos STEM</span></td>
+								<td>2026-02-28</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Fondo para proyectos de astronomía y astrofísica</a></td>
+								<td>Dra. Laura Méndez</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Estudiantes de posgrado & profesionales</span></td>
+								<td>2026-03-05</td>
+							</tr>
+							<tr>
+								<td><a href="#" class="text-decoration-none fw-medium">Seminario web sobre ética en la investigación científica</a></td>
+								<td>Prof. Andrés Cruz</td>
+								<td>
+									<button class="btn btn-sm btn-outline-primary">
+										<i class="bi bi-chat-dots"></i> Reply
+									</button>
+								</td>
+								<td><span class="badge bg-secondary">Discusión General</span></td>
+								<td>2026-01-18</td>
+							</tr>
+							<!-- Add more rows in PHP loop -->
+						</tbody>
+					</table>
+				</div>
+
+				<!-- Pagination -->
+				<nav aria-label="Forum posts pagination" class="mt-4">
+					<ul class="pagination justify-content-center">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+						</li>
+						<li class="page-item active" aria-current="page">
+							<a class="page-link" href="#">1</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">Next</a>
+						</li>
+					</ul>
+				</nav>
+
 			</div>
 
 			<!-- FIN: De la table luego de la paginación -->
