@@ -21,8 +21,10 @@ include_once('templates/breadcrumbs.php');
 	<section class="container-fluid p-0 conocenos-hero d-flex align-items-center" style="min-height: 250px;">
 
 		<div class="container">
+			<!-- TÍTULO H1 -->
 			<h1 class="fw-bold mb-3 text-body">Nuestra Organización</h1>
 
+			 <!-- BREADCRUMBS: Aparece justo debajo del H1 -->
 			<?php display_breadcrumbs($breadcrumb_path, $PageTitle); ?>
 
 		</div>

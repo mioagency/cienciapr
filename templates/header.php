@@ -72,7 +72,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Conoce" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'conocenos') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>conoce.php" id="conocenosDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'conoce') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>conoce.php" id="conocenosDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
                 Conoce <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="conocenosDropdown">
@@ -132,10 +132,11 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuConocenos-1" data-bs-parent="#conocenosMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php">Resumen / Misión / Visión / Valores</a></li>
-                            <li><a class="dropdown-item" href="#">Equipo (Junta, staff)</a></li>
-                            <li><a class="dropdown-item" href="#">Patrocinadores</a></li>
-                          </ul>
+                            <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>conoce.php">Historia</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#mision-vision-valores">Misión / Visión / Valores</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#nuestro-equipo">Nuestro equipo</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#nuestros-patrocinadores">Nuestros patrocinadores</a></li>
+                         </ul>
                         </div>
                       </li>
                       <li><hr class="dropdown-divider"></li>
@@ -145,10 +146,10 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuConocenos-2" data-bs-parent="#conocenosMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Comunicados de prensa/media kit</a></li>
-                            <li><a class="dropdown-item" href="#">Noticias sobre CienciaPR</a></li>
-                            <li><a class="dropdown-item" href="#">Publicaciones</a></li>
-                            <li><a class="dropdown-item" href="#">Reportes anuales</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#comunicados-prensa">Comunicados de prensa/media kit</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#noticias-boricua">Noticias sobre CienciaPR</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#publicaciones">Publicaciones</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#reportes-anuales">Reportes anuales</a></li>
                           </ul>
                         </div>
                       </li>
