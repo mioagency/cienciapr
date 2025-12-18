@@ -1,14 +1,14 @@
 <?php
 
-$PageTitle = "Conócenos | Ciencia Puerto Rico";
-$page = "conocenos";
+$PageTitle = "Conoce | Ciencia Puerto Rico";
+$page = "conoce";
 
 // Incluimos el header primero, ya que define SERVER_URI
 include_once('templates/header.php');
 
 // 1. Definición de la ruta de breadcrumbs
 $breadcrumb_path = [
-	"Conócenos" => SERVER_URI . 'conocenos.php',
+	"Conoce" => SERVER_URI . 'conoce.php',
 ];
 
 // Incluimos el archivo de lógica de breadcrumbs

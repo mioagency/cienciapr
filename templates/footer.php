@@ -64,7 +64,7 @@
     <script src="<?= SERVER_URI ?>js/custom.js"></script>
 
     <!-- Piloto Digital -->
-    <script>
+    <!-- <script>
     (function(d, t, g, k) {
       var ph = d.createElement(t),
       s = d.getElementsByTagName(t)[0],
@@ -79,6 +79,6 @@
       ph.src += t ? '&' + k + '=' + t : '';
       s.parentNode.insertBefore(ph, s);
     })(document, 'script', '//demo.pilotodigital.com/?p=17602&ph_apikey=e6f2714e5467ffbda7f38e63173a9f29', 'ph_access_token');
-    </script>    
+    </script>     -->
   </body>
 </html>
