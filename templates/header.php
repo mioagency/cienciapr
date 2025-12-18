@@ -72,7 +72,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Conoce" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'conoce') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>conoce.php" id="conocenosDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'conoce') ? 'active text-primary':''; ?>" href="#" id="conocenosDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Conoce <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="conocenosDropdown">
@@ -172,7 +172,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Explora" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'explora') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>explora.php" id="exploraDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'explora') ? 'active text-primary':''; ?>" href="#" id="exploraDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Explora <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="exploraDropdown">
@@ -284,7 +284,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Participa" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'participa') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>participa.php" id="participaDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'participa') ? 'active text-primary':''; ?>" href="#" id="participaDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Participa <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="participaDropdown">
@@ -355,7 +355,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Descubre" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'descubre') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>ciencia-boricua.php" id="descubreDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'descubre') ? 'active text-primary':''; ?>" href="#" id="descubreDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Descubre <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="descubreDropdown">
@@ -439,7 +439,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Únete" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'unete') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>unete.php" id="uneteDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'unete') ? 'active text-primary':''; ?>" href="#" id="uneteDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Únete <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="uneteDropdown">
@@ -500,7 +500,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuUnete-2" data-bs-parent="#uneteMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item px-0" href="#">Red de Museos y Centros de Ciencia</a></li>                             
+                            <li><a class="dropdown-item" href="#">Red de Museos y Centros de Ciencia</a></li>                             
                             <li><a class="dropdown-item" href="#">Registro de iniciativas STEM de PR</a></li>
                           </ul>
                         </div>
@@ -513,7 +513,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- INICIO: Mega Menu "Involúcrate" -->
             <li class="nav-item dropdown position-static">
               <!-- ELIMINADO data-bs-toggle. El JS lo inserta en mobile. -->
-              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'involucrate') ? 'active text-primary':''; ?>" href="<?= SERVER_URI ?>involucrate.php" id="involucrateDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside">
+              <a class="nav-link dropdown-toggle <?= (ACTIVE_PAGE == 'involucrate') ? 'active text-primary':''; ?>" href="#" id="involucrateDropdown" role="button" aria-expanded="false" data-bs-auto-close="outside" data-bs-toggle="dropdown">
                 Involúcrate <i class="fa-solid fa-chevron-down fa-xs ms-1 text-primary"></i>
               </a>
               <ul class="dropdown-menu w-100 mt-0 border-0 mega-menu-desktop-center bg-light shadow" aria-labelledby="involucrateDropdown">
@@ -644,7 +644,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
             <!-- FIN: Enlaces del Topbar para móvil -->
             <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
                 <div class="d-grid">
-                  <a href="<?= SERVER_URI ?>donar.php" class="btn btn-primary text-white">Donar</a>
+                  <a href="https://givebutter.com/Tt7CRd" target="_blank" class="btn btn-primary text-white">Donar</a>
                 </div>
             </li>
           </ul>
