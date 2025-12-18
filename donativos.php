@@ -60,7 +60,7 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-    <section id="opciones-donaciones" class="py-5 py-md-8">
+    <section id="donativosRecurrentes" class="py-5 py-md-8">
         <div class="container">
             <div class="row gx-md-5">
                 <div class="col-12 text-center mb-md-5">
@@ -89,7 +89,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- SECCIÓN: SEMBRADORES CONOCIMIENTO (TABS) -->
-	<section id="nuestro-equipo" class="container-fluid p-3 p-lg-6">
+	<section id="" class="container-fluid p-3 p-lg-6">
 		<div class="p-4 p-lg-6 bg-primary text-white rounded-20">
 			<h2 class="fs-2 fw-bold text-white text-center mb-4">Sembradores de conocimiento</h2>
 
@@ -109,7 +109,7 @@ include_once ('templates/breadcrumbs.php');
 			<!-- Contenido de las Pestañas -->
 			<div class="tab-content" id="teamTabContent">
 				
-				<!-- Contenido: Staff (Activo por defecto) -->
+				<!-- Contenido:Complices (Activo por defecto) -->
 				<div class="tab-pane fade show active" id="complices-content" role="tabpanel" aria-labelledby="staff-tab">
                     <div class="row gx-md-5 gy-4 align-items-stretch">
                         <div class="col-12 col-md-6 d-flex flex-column">
@@ -127,7 +127,7 @@ include_once ('templates/breadcrumbs.php');
                     </div>
 				</div>
 
-				<!-- Contenido: Equipo Operativo (Replicando estructura y alterando orden) -->
+				<!-- Contenido: Embajadores (Replicando estructura y alterando orden) -->
 				<div class="tab-pane fade" id="embajadores-content" role="tabpanel" aria-labelledby="embajadores-tab">
                     <div class="row gx-md-5 gy-4 align-items-stretch">
                         <div class="col-12 col-md-6 d-flex flex-column">
@@ -144,165 +144,12 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                     </div>
 				</div>
-
-				<!-- Contenido: Equipo Administrativo (Replicando estructura y alterando orden) -->
-				<div class="tab-pane fade" id="admin-content" role="tabpanel" aria-labelledby="admin-tab">
-					<!-- INICIO: Scroll Horizontal para Cards en Móviles -->
-					<div class="row g-4 flex-nowrap overflow-x-auto pb-3">
-						<!-- Tarjeta Miembro 4 (Pedro Caraballo) - Orden 1 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/4-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Pedro Caraballo</h5>
-									<p class="card-text small text-muted">Relaciones Públicas (Administrativo)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 1 (Melissa Mendez) - Orden 2 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/1-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Melissa Mendez</h5>
-									<p class="card-text small text-muted">Relaciones Públicas (Administrativo)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 2 (Antonio Martínez) - Orden 3 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/2-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Antonio Martínez</h5>
-									<p class="card-text small text-muted">Presidente (Administrativo)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 3 (Marcela Medina) - Orden 4 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/3-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Marcela Medina</h5>
-									<p class="card-text small text-muted">Recursos Humanos (Administrativo)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-success fs-6">Cargar más miembros</a></div>
-				</div>
-
-				<!-- Contenido: Pasados Voluntarios (Replicando estructura y alterando orden) -->
-				<div class="tab-pane fade" id="past-content" role="tabpanel" aria-labelledby="past-tab">
-					<!-- INICIO: Scroll Horizontal para Cards en Móviles -->
-					<div class="row g-4 flex-nowrap overflow-x-auto pb-3">
-						<!-- Tarjeta Miembro 2 (Antonio Martínez) - Orden 1 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/2-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Antonio Martínez</h5>
-									<p class="card-text small text-muted">Presidente (Voluntario)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 4 (Pedro Caraballo) - Orden 2 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/4-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Pedro Caraballo</h5>
-									<p class="card-text small text-muted">Relaciones Públicas (Voluntario)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 3 (Marcela Medina) - Orden 3 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/3-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Marcela Medina</h5>
-									<p class="card-text small text-muted">Recursos Humanos (Voluntario)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Tarjeta Miembro 1 (Melissa Mendez) - Orden 4 -->
-						<div class="col-10 col-md-6 col-lg-3 flex-shrink-0">
-							<div class="card h-100 overflow-hidden border-0">
-								<img src="<?= SERVER_URI ?>/images/1-nuestro-equipo.webp" class="card-img-top img-equal" alt="Nuestro Equipo">
-								<div class="card-body p-4 text-start">	
-									<h5 class="card-title fs-5 fw-bold mb-1">Melissa Mendez</h5>
-									<p class="card-text small text-muted">Relaciones Públicas (Voluntario)</p>
-									<hr class="border-primary border-1 mt-3 mb-3">
-									<div class="d-flex gap-2 justify-content-center">
-										<a href="#" class="text-body"><i class="fab fa-facebook-f"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-instagram"></i></a>
-										<a href="#" class="text-body"><i class="fab fa-linkedin-in"></i></a>
-										<a href="#" class="text-body"><i class="fas fa-envelope"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-success fs-6">Cargar más miembros</a></div>
-				</div>
-
 			</div>
 		</div>
 	</section>
 
     <!-- APORTACION PATRONO -->
-    <section class="pt-5 pt-md-8">
+    <section id="duplicacionDonativos" class="pt-5 pt-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column">
@@ -336,7 +183,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- AMAZON WISHLIST -->
-    <section class="pt-5 py-md-8">
+    <section id="amazonWishlist" class="pt-5 py-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6">
@@ -361,7 +208,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
     
     <!-- CORPORATIVO -->
-    <section class="bg-primary py-5 p-md-8">
+    <section id="corporativosFilantropicos" class="bg-primary py-5 p-md-8">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-7 mx-auto text-center">
@@ -374,7 +221,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
 
-    <section class="py-5 py-md-8">
+    <section id="ventas" class="py-5 py-md-8">
         <div class="container">
             <div class="row mb-3 mb-md-5">
                 <div class="col-12 col-md-7 mx-auto text-center">
@@ -440,7 +287,7 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-    <section class="pb-5 py-md-8 pattern-grey-2 pg-centered">
+    <section id="alianzasVoluntariado" class="pb-5 py-md-8 pattern-grey-2 pg-centered">
         <div class="container">
             <div class="row mx-1 mx-sm-0">
                 <div class="col-md-10 bg-primary rounded-20 mx-auto p-4 p-md-5">

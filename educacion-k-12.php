@@ -8,7 +8,8 @@ include_once ('templates/header.php');
 
 // 1. Definición de la ruta de breadcrumbs
 $breadcrumb_path = [
-    "Educación K-12" => SERVER_URI . 'educacion-k-12.php',
+  "Explora" => '#',  
+  "Educación K-12" => SERVER_URI . 'educacion-k-12.php',
 ];
 
 // Incluimos el archivo de lógica de breadcrumbs
@@ -50,7 +51,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- INICIATIVAS -->
-    <section class="py-8 bg-tertiary pattern-grey">
+    <section id="iniciativas" class="py-8 bg-tertiary pattern-grey">
       <div class="container">
         <!-- CABECERA Y CONTROLES -->
         <div class="d-flex flex-wrap align-items-end justify-content-start mb-4">
@@ -212,7 +213,7 @@ include_once ('templates/breadcrumbs.php');
                         <p class="fs-5 card-text fw-normal">Ciencia Puerto Rico ha conectado a miles de estudiantes con experiencias que despiertan la curiosidad y fortalecen su aprendizaje. A través de programas, mentorías y recursos educativos, seguimos formando jóvenes comprometidos con el conocimiento y el futuro de la ciencia en Puerto Rico.</p>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Conócenos</a>
+                                <a href="<?= SERVER_URI ?>conoce.php" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Conócenos</a>
                             </div>
                         </div>
                     </div>
@@ -304,7 +305,7 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
+                                <a href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado" class="btn btn-tertiary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
                             </div>
                         </div>
                     </div>

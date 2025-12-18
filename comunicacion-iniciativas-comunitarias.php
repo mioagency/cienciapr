@@ -50,7 +50,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- INICIATIVAS -->
-    <section class="py-8 bg-info pattern-grey">
+    <section id="iniciativas" class="py-8 bg-info pattern-grey">
       <div class="container">
         <!-- CABECERA Y CONTROLES -->
         <div class="d-flex flex-wrap align-items-end justify-content-start mb-4">
@@ -212,7 +212,7 @@ include_once ('templates/breadcrumbs.php');
                         <p class="fs-5 card-text fw-normal">Durante años, Ciencia Puerto Rico ha trabajado para que el conocimiento científico sea accesible, relevante y parte esencial de la vida diaria de nuestra comunidad. A través de contenido educativo, noticias, proyectos comunitarios y colaboraciones con expertos, hemos construido un movimiento de divulgación que sigue creciendo y fortaleciendo la cultura científica del país.</p>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conócenos</a>
+                                <a href="<?= SERVER_URI ?>conoce.php" class="btn btn-primary text-white btn-lg fs-7 me-3">Conócenos</a>
                             </div>
                         </div>
                     </div>
@@ -302,7 +302,7 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
+                                <a href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado" class="btn btn-primary text-white btn-lg fs-7 me-3">Explorar alianzas</a>
                             </div>
                         </div>
                     </div>

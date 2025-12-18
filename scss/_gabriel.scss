@@ -125,4 +125,122 @@ section#opciones-donaciones img {
     }
 }
 
+// Slider en index
+/* Hero Slide Styling */
+.hero-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+}
 
+/* Optional: Add overlay for better text readability */
+.hero-slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-slide .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Better looking controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  opacity: 0.8;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+/* Indicators styling */
+.carousel-indicators {
+  margin-bottom: 1rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 767px) {
+  
+  /* Adjust height for mobile */
+  .hero-slide {
+    min-height: 40vh !important;
+  }
+  
+  /* Make text more readable on small screens */
+  .hero-slide h1 {
+    font-size: 2rem !important; /* Smaller display text */
+  }
+  
+  .hero-slide p {
+    font-size: 1rem !important;
+  }
+  
+  /* Add more padding on mobile */
+  .hero-slide .row {
+    padding: 3rem 0 !important;
+  }
+  
+  /* Center content on mobile */
+  // .hero-slide .col-lg-6 {
+  //   text-align: center;
+  // }
+  
+  /* Make buttons full width on mobile (optional) */
+  .hero-slide .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Smaller controls on mobile */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+    z-index: 3;
+  }
+  
+  /* Adjust background position for mobile */
+  .hero-slide {
+    background-position: center center;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-slide h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  .hero-slide {
+    min-height: 65vh;
+  }
+}
+
+/* Large screens - better background positioning */
+@media (min-width: 1400px) {
+  .hero-slide {
+    min-height: 70vh;
+  }
+}

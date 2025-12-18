@@ -31,7 +31,7 @@ include_once('templates/breadcrumbs.php');
 
 	</section>
 
-	<!-- SECCIÓN DE MISIÓN/VISIÓN Y TEXTO PRINCIPAL -->
+	<!-- SECCIÓN DE TEXTO PRINCIPAL -->
 	<section class="container py-5 py-lg-8">
 		<!-- Eliminamos row-cols-2 para forzar el apilamiento en móviles -->
 		<div class="row row-cols-1 row-cols-md-2 g-4 g-lg-5">
@@ -52,7 +52,8 @@ include_once('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-
+	
+	<!-- SECCIÓN MISIÓN/VISIÓN -->
 	<section id="mision-vision-valores" class="container-fluid pt-2 pb-5 pb-lg-8">
 		<h2 class="fs-2 fw-bold text-center mb-5">Principios que impulsan nuestro trabajo</h2>
 		<div class="container">

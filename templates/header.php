@@ -196,9 +196,9 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                             <h6 class="text-dark fw-bold mega-menu-title">Comunicación e iniciativas comunitarias</h6>
                             <ul class="list-unstyled mt-3 mb-0">
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php">Unidad de participación pública en la ciencia</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Comunicación científica</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Aquí Nos Cuidamos</a></li>
-                              <li><a class="dropdown-item px-0" href="#">CienciaCoLab</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">Comunicación científica</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">Aquí Nos Cuidamos</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">CienciaCoLab</a></li>
                             </ul>
                           </div>
                           <!-- Columna 2: Educación K-12 -->
@@ -206,11 +206,11 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                             <h6 class="text-dark fw-bold mega-menu-title">Educación K-12</h6>
                             <ul class="list-unstyled mt-3 mb-0">
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php">Unidad de educación en ciencia</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Catálogo de recursos educativos</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Visitas a escuelas y charlas virtuales</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Semillas de Triunfo</a></li>
-                              <li><a class="dropdown-item px-0" href="#">For Girls in Science-PR</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Otras iniciativas</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Catálogo de recursos educativos</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Visitas a escuelas y charlas virtuales</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Semillas de Triunfo</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">For Girls in Science-PR</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Otras iniciativas</a></li>
                             </ul>
                           </div>
                           <!-- Columna 3: Talento y liderazgo científico -->
@@ -218,10 +218,10 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                             <h6 class="text-dark fw-bold mega-menu-title">Talento y liderazgo científico</h6>
                             <ul class="list-unstyled mt-3 mb-0">
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>talento-y-liderazgo.php">Unidad de desarrollo de talento y liderazgo científico</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Inclusive Reflexive Fellowship</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Yale Ciencia Academy</a></li>
-                              <li><a class="dropdown-item px-0" href="#">PR Science Policy Action Network</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Webinarios y certificaciones UPR-IPERT</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Inclusive Reflexive Fellowship</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Yale Ciencia Academy</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">PR Science Policy Action Network</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Webinarios y certificaciones UPR-IPERT</a></li>
                             </ul>
                           </div>
                         </div>
@@ -537,28 +537,28 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                             <h6 class="text-dark fw-bold mega-menu-title">Donativos</h6>
                             <ul class="list-unstyled mt-3 mb-0">
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php">Donativos individuales</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Programa de donativos recurrentes</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Duplicación de donativos</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Campañas de recaudación</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Amazon Wishlist</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Donativos corporativos y filantrópicos</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#donativosRecurrentes">Programa de donativos recurrentes</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#duplicacionDonativos">Duplicación de donativos</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#donativosRecaudacion">Campañas de recaudación</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#amazonWishlist">Amazon Wishlist</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#corporativosFilantropicos">Donativos corporativos y filantrópicos</a></li>
                             </ul>
                           </div>
                           <!-- Columna 2: Ventas -->
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Ventas</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="#">Tienda</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Publicaciones en Amazon</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Anuncios</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#ventas">Tienda</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#ventas">Publicaciones en Amazon</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#ventas">Anuncios</a></li>
                             </ul>
                           </div>
                           <!-- Columna 3: Alianzas y voluntariado -->
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Alianzas y voluntariado</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="#">Alianzas</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Voluntariado</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado">Alianzas</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado">Voluntariado</a></li>
                             </ul>
                           </div>
                         </div>

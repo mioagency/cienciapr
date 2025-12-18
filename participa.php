@@ -173,7 +173,7 @@ include_once ('templates/breadcrumbs.php');
                         </div>
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Participar en el foro</a>
+                                <a href="<?= SERVER_URI ?>foro.php" class="btn btn-primary text-white btn-lg fs-7 me-3">Participar en el foro</a>
                             </div>
                         </div>
                     </div>
