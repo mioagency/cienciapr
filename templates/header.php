@@ -378,11 +378,11 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Ciencia Boricua</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="#">Blog CienciaPR</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Noticias científicas</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Perfiles de la Ciencia Boricua</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Ciencia Boricua TV</a></li>
-                              <li><a class="dropdown-item px-0" href="#">Jueves de Ciencia Boricua</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>ciencia-boricua.php#blogCiencia">Blog CienciaPR</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>ciencia-boricua.php#noticias">Noticias científicas</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>ciencia-boricua.php#perfiles">Perfiles de la Ciencia Boricua</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>ciencia-boricua.php#cienciaBoricuaTV">Ciencia Boricua TV</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>ciencia-boricua.php#juevesCienciaBoricua">Jueves de Ciencia Boricua</a></li>
                             </ul>
                           </div>
                           <!-- Columna 2: Recursos y archivos -->

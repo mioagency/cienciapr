@@ -50,7 +50,7 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- SECCIÓN 3 COLUMNAS -->
-    <section class="py-7 bg-body">
+    <section id="blogCiencia" class="py-7 bg-body">
         <div class="container">
         
             <div class="row mb-4">
@@ -125,12 +125,12 @@ include_once ('templates/breadcrumbs.php');
     </section>
 
     <!-- LOOP DE NOTICIAS -->
-    <section id="ciencia-boricua" class="py-8 bg-primary pattern-grey">
+    <section id="noticias" class="py-8 bg-primary pattern-grey">
         <?php include_once ('templates/noticias.php'); ?>
     </section>
 
     <!-- PERFILES -->
-    <section class="py-5 py-md-8">
+    <section id="perfiles" class="py-5 py-md-8">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 mx-auto text-center d-flex flex-column gap-3">
@@ -182,7 +182,7 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
 
-    <section class="pb-5 pb-md-8">
+    <section id="cienciaBoricuaTV" class="pb-5 pb-md-8">
         <div class="container">
             <div class="row gx-md-5 gy-4 align-items-stretch">
                 <div class="col-12 col-md-6 d-flex flex-column">
@@ -210,7 +210,7 @@ include_once ('templates/breadcrumbs.php');
             </div>
         </div>
     </section>
-    <section class="pb-5 py-md-8 pattern-grey-2">
+    <section id="juevesCienciaBoricua" class="pb-5 py-md-8 pattern-grey-2">
         <div class="container">
             <div class="row p-3">
                 <div class="col-md-10 bg-primary rounded-20 mx-auto">
