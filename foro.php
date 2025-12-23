@@ -30,6 +30,12 @@ include_once ('templates/breadcrumbs.php');
         </div>
         
     </section>
+
+		<!-- ESPACIO PARA ANUNCIO -->
+    <section class="pt-4">
+			<?php include_once ('templates/fila-de-anuncio.php'); ?>
+		</section>
+		<!-- ESPACIO PARA ANUNCIO -->
     
     <!-- SECCIÓN CONTENIDO PRINCIPAL -->
     <section class="container py-6">
@@ -282,12 +288,6 @@ include_once ('templates/breadcrumbs.php');
 		</div>
 	</section>
 
-		<!-- ESPACIO PARA ANUNCIO -->
-    <section class="pt-4">
-			<?php include_once ('templates/fila-de-anuncio.php'); ?>
-	</section>
-
-<!-- ESPACIO PARA ANUNCIO -->
 <section class="pb-5 py-md-8 pattern-grey-2">
         <div class="container">
             <div class="row p-3">
