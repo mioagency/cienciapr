@@ -101,7 +101,7 @@ include_once ('templates/breadcrumbs.php');
 						<button class="btn btn-outline-light active text-nowrap" id="staff-tab" data-bs-toggle="tab" data-bs-target="#complices-content" type="button" role="tab" aria-controls="complices-content" aria-selected="true">Complices</button>
 					</li>
 					<li class="nav-item mx-2 flex-shrink-0" role="presentation">
-						<button class="btn btn-outline-light text-nowrap" id="embajadores-tab" data-bs-toggle="tab" data-bs-target="#embajadores-content" type="button" role="tab" aria-controls="embajadores-content" aria-selected="false">Embajadores</button>
+						<button class="btn btn-outline-light text-nowrap" id="catalizadores-tab" data-bs-toggle="tab" data-bs-target="#catalizadores-content" type="button" role="tab" aria-controls="catalizadores-content" aria-selected="false">Catalizadores</button>
 					</li>
 				</ul>
 			</div>
@@ -127,8 +127,8 @@ include_once ('templates/breadcrumbs.php');
                     </div>
 				</div>
 
-				<!-- Contenido: Embajadores (Replicando estructura y alterando orden) -->
-				<div class="tab-pane fade" id="embajadores-content" role="tabpanel" aria-labelledby="embajadores-tab">
+				<!-- Contenido: catalizadores (Replicando estructura y alterando orden) -->
+				<div class="tab-pane fade" id="catalizadores-content" role="tabpanel" aria-labelledby="catalizadores-tab">
                     <div class="row gx-md-5 gy-4 align-items-stretch">
                         <div class="col-12 col-md-6 d-flex flex-column">
                             <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donativos-sembradores-conocimiento.png" alt="Estudiantes y profesor observando a través de un microscopio" >
@@ -136,7 +136,7 @@ include_once ('templates/breadcrumbs.php');
                         <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <div class="p-5">
                                 <div class="p-0">
-                                    <h2 class="fs-2 fw-semibold mb-3">Embajadores de la ciencia boricua</h2>
+                                    <h2 class="fs-2 fw-semibold mb-3">Catalizadores de la ciencia boricua</h2>
                                     <p class="fs-5 card-text fw-normal mb-4">Una comunidad de donantes de CienciaPR, que por medio de su donativo recurrente, demuestra un compromiso con el desarrollo de la ciencia y la educación en el archipiélago.</p>
                                     <a href="#" class="btn btn-success text-dark btn-lg fs-7">se parte del cambio</a>
                                 </div>
