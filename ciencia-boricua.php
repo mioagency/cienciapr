@@ -189,9 +189,7 @@ include_once ('templates/breadcrumbs.php');
                     <div class="card border-0 flex-grow-1">
                         <div class="card-body p-0">
                             <h2 class="fs-2 fw-semibold">CienciaPR TV</h2>
-                            <p class="fs-5 card-text fw-normal">La serie presenta videos cortos desarrollados para complementar el currículo de ciencia de 7mo a 9no grado y contiene ejemplos positivos de científicos, ingenieros, y profesionales en carreras tecnológicas, además de ilustrar las ciencias de manera excitante y relevante para las vidas de estudiantes puertorriqueños.</p>
-                            <p class="fs-5 card-text fw-normal">A través de la narración de <a href="https://www.cienciapr.org/en/user/yajaira" target="_blank"> Yajaira Sierra-Sastre</a>, una joven científica y educadora, los estudiantes observarán estrellas con la Sociedad Astronómica del Caribe, visitarán el Radiotelescopio de Arecibo, escucharán consejos del astronauta puertorriqueño Joseph Acabá y observarán cómo investigaciones de científicos puertorriqueños están revolucionando la exploración espacial.</p>
-                            <p class="fs-5 card-text fw-normal">Los videos están acompañados de guías para maestros que facilitan la integración del recurso al salón de clases.</p>
+                            <p class="fs-5 card-text fw-normal">Esta serie de videos educativos motiva a estudiantes de 7.º a 9.º grado a explorar carreras en ciencias y tecnología. Con la conducción de Yajaira Sierra-Sastre, el contenido destaca la exploración espacial y el talento científico puertorriqueño, incluyendo guías para maestros que facilitan su uso en el salón de clases.</p>
                             <div class="col">
                                 <a href="https://www.youtube.com/" target="_blank" class="fs-7 btn bg-white d-inline-flex align-items-center shadow rounded-3 text-decoration-none px-3 py-2" style="border: 1px solid #eef0f2;">
                                     <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-3">
