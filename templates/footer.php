@@ -2,7 +2,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="<?= SERVER_URI ?>images/logo-footer.svg" width="205" alt="Ciencia Puerto Rico Logo">
+						<a class="navbar-brand" href="<?= SERVER_URI ?>index.php">
+							<img src="<?= SERVER_URI ?>images/logo-footer.svg" width="205" alt="Ciencia Puerto Rico Logo">
+						</a>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 mb-4">
