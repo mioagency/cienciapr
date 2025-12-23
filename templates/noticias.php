@@ -1,7 +1,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-12">
-        <h2 class="fs-2 text-dark fw-bold text-center">Noticias sobre Ciencia Boricua</h2>
+        <h2 class="fs-2 text-dark fw-bold text-center">CienciaPR en las noticias</h2>
       </div>
     </div>
     <div class="row g-4 align-items-stretch">
