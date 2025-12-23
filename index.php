@@ -135,7 +135,7 @@ include_once ('templates/header.php'); ?>
             <img src="<?= SERVER_URI ?>images/ico-1.svg" alt="Imagen descriptiva 1" class="img-fluid mb-3 rounded">
             <div class="h-100 p-4 d-flex flex-column justify-content-between align-items-start">
               <div>
-                <h3>Participación Pública</h3>
+                <h3>Comunicación e Iniciativas Comunitarias</h3>
                 <p>Promovemos decisiones basadas en evidencia y la participación de la ciencia en políticas sociales y comunitarias.</p>
               </div>
               <div>
@@ -169,7 +169,7 @@ include_once ('templates/header.php'); ?>
             <img src="<?= SERVER_URI ?>images/ico-3.svg" alt="Imagen descriptiva 1" class="img-fluid mt-2 mb-3 rounded">
             <div class="h-100 p-4 d-flex flex-column justify-content-between align-items-start">
               <div>
-                <h3>Desarrollo Profesional</h3>
+                <h3>Talento y Liderazgo Científico</h3>
                 <p>Potenciamos carreras científicas con tutoría, redes, becas y programas como Yale Ciencia Academy.</p>
               </div>
               <div>
