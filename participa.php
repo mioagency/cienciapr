@@ -36,7 +36,7 @@ include_once ('templates/breadcrumbs.php');
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
 					<div class="d-flex col-lg-8 col-md-8 align-items-center justify-content-between gap-4 w-100">
-							<h2 class="fs-2 text-body fw-bold">Convocatorias Activas</h2>
+							<h2 class="fs-2 text-body fw-bold">Oportunidades resaltadas</h2>
 							<!-- Botones de navegación -->
 							<div class="pt-3 pt-md-0 d-flex">
 									<button class="btn bg-primary text-white rounded-circle p-0" style="width: 32px; height: 32px;" id="btnPrev" aria-label="Anterior">
@@ -188,13 +188,13 @@ include_once ('templates/breadcrumbs.php');
     <section class="pt-4">
 			<?php include_once ('templates/fila-de-anuncio.php'); ?>
 		</section>
-		<!-- CONVOCATORIAS RESALTADAS -->
+		<!-- Eventos resaltados -->
 		<section class="pb-7">
 			<div class="container">
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
 					<div class="d-flex col-lg-8 col-md-8 align-items-center justify-content-between gap-4 w-100">
-							<h2 class="fs-2 text-body fw-bold">Convocatorias Resaltadas</h2>
+							<h2 class="fs-2 text-body fw-bold">Eventos resaltados</h2>
 							<!-- Botones de navegación -->
 							<div class="pt-3 pt-md-0 d-flex">
 									<button class="btn bg-primary text-white rounded-circle p-0" style="width: 32px; height: 32px;" id="btnPrev" aria-label="Anterior">
