@@ -15,7 +15,6 @@ $breadcrumb_path = [
 include_once ('templates/breadcrumbs.php'); 
 ?>
 
-
 <main>
 
 <!-- SECCIÓN HÉROE CON IMAGEN DE FONDO -->
