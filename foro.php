@@ -38,7 +38,7 @@ include_once ('templates/breadcrumbs.php');
 		<!-- ESPACIO PARA ANUNCIO -->
     
     <!-- SECCIÓN CONTENIDO PRINCIPAL -->
-    <section class="container py-6">
+    <section class="container pb-6 pt-2">
         
         <div class="card-body p-0">
                     <h2 class="fs-2 fw-semibold">¡Bienvenido a nuestros Foros!</h2>
