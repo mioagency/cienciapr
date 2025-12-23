@@ -42,6 +42,10 @@ include_once('templates/breadcrumbs.php');
 						profesionales y ciudadanos comprometidos con fortalecer la ciencia en la isla. A través de programas,
 						recursos y colaboraciones, trabajamos para que el conocimiento científico sea accesible, relevante y motor
 						de cambio para nuestro país.</p>
+						<!-- Botón conoce más -->
+						<div class="mt-4">
+							<a href="#" class="btn btn-primary text-white btn-lg fs-7">Conoce más</a>
+						</div>
 				</div>
 			</div>
 			<div class="col">
