@@ -15,79 +15,89 @@ include_once ('templates/header.php'); ?>
   <!-- SECCIÓN HÉROE -->
   <section class="container-fluid text-white home-hero overflow-hidden p-0">
     <!-- Carousel -->
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
       
-      <!-- Indicators -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active">
+      <div class="hero-slide home-hero">
+        <div class="container px-4 px-md-5">
+          <div class="row align-items-center py-5" style="min-height: 80vh;"> 
+            <div class="col-lg-6 pe-lg-5 ps-lg-4"> 
+              <h1 class="display-4 fw-bold mb-3 text-body">La <span class="text-primary">red global</span> que conecta ciencia y Puerto Rico</h1>
+              <p class="fs-5 mb-4 text-body">Conectamos a científicos, estudiantes y educadores con interés en la ciencia y Puerto Rico para transformar la educación, la investigación y la cultura científica.</p>
+              <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conoce más</a>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0"></div>
+          </div>
+        </div>
       </div>
-
-      <!-- Slides -->
-      <div class="carousel-inner">
-        
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="hero-slide home-hero">
-            <div class="container">
-              <div class="row align-items-center py-5" style="min-height: 60vh;">
-                <div class="col-lg-6 pe-lg-5">
-                  <h1 class="display-4 fw-bold mb-3 text-body">La <span class="text-primary">red global</span> que conecta ciencia y Puerto Rico</h1>
-                  <p class="fs-5 mb-4 text-body">Conectamos a científicos, estudiantes y educadores con interés en la ciencia y Puerto Rico para transformar la educación, la investigación y la cultura científica.</p>
-                  <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conoce más</a>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="hero-slide" style="background-image: url('https://placehold.co/1920x800/2b493d/3d5f52');">
-            <div class="container">
-              <div class="row align-items-center py-5" style="min-height: 60vh;">
-                <div class="col-lg-6 pe-lg-5">
-                  <h1 class="display-4 fw-bold mb-3 text-white">Educación <span class="text-primary">científica</span> de calidad</h1>
-                  <p class="fs-5 mb-4 text-white">Proveemos recursos educativos y programas que inspiran a la próxima generación de científicos puertorriqueños.</p>
-                  <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Ver programas</a>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="hero-slide" style="background-image: url('https://placehold.co/1920x800/434343/595959');">
-            <div class="container">
-              <div class="row align-items-center py-5" style="min-height: 60vh;">
-                <div class="col-lg-6 pe-lg-5">
-                  <h1 class="display-4 fw-bold mb-3 text-white">Únete a <span class="text-primary">nuestra comunidad</span></h1>
-                  <p class="fs-5 mb-4 text-white">Forma parte de la red de profesionales y estudiantes comprometidos con el desarrollo científico de Puerto Rico.</p>
-                  <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Regístrate</a>
-                </div>
-                <div class="col-lg-6 mt-4 mt-lg-0"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Controles Previous/Next -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-
     </div>
+
+    <div class="carousel-item">
+      <div class="hero-slide" style="background: url('https://placehold.co/1920x800/2b493d/3d5f52') no-repeat center center / cover;">
+        <div class="container px-4 px-md-5">
+          <div class="row align-items-center py-5" style="min-height: 80vh;">
+            <div class="col-lg-6 pe-lg-5 ps-lg-4">
+              <h1 class="display-4 fw-bold mb-3 text-white">Educación <span class="text-primary">científica</span> de calidad</h1>
+              <p class="fs-5 mb-4 text-white">Proveemos recursos educativos y programas que inspiran a la próxima generación de científicos puertorriqueños.</p>
+              <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Ver programas</a>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="hero-slide" style="background: url('https://placehold.co/1920x800/434343/595959') no-repeat center center / cover;;">
+        <div class="container px-4 px-md-5">
+          <div class="row align-items-center py-5" style="min-height: 80vh;">
+            <div class="col-lg-6 pe-lg-5 ps-lg-4">
+              <h1 class="display-4 fw-bold mb-3 text-white">Únete a <span class="text-primary">nuestra comunidad</span></h1>
+              <p class="fs-5 mb-4 text-white">Forma parte de la red de profesionales y estudiantes comprometidos con el desarrollo científico de Puerto Rico.</p>
+              <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Regístrate</a>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="btn btn-primary rounded-circle position-absolute top-50 start-0 translate-middle-y ms-1 d-flex d-md-none align-items-center justify-content-center border-0 shadow" 
+          type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" 
+          style="width: 35px; height: 35px; z-index: 5;">
+    <span class="carousel-control-prev-icon" style="width: 1rem; height: 1rem;" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="btn btn-primary rounded-circle position-absolute top-50 end-0 translate-middle-y me-1 d-flex d-md-none align-items-center justify-content-center border-0 shadow" 
+          type="button" data-bs-target="#heroCarousel" data-bs-slide="next" 
+          style="width: 35px; height: 35px; z-index: 5;">
+    <span class="carousel-control-next-icon" style="width: 1rem; height: 1rem;" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+  <button class="btn btn-primary rounded-circle position-absolute top-50 start-0 translate-middle-y ms-4 d-none d-md-flex align-items-center justify-content-center border-0 shadow" 
+          type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" 
+          style="width: 50px; height: 50px; z-index: 5;">
+    <span class="carousel-control-prev-icon" style="width: 1.5rem; height: 1.5rem;" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="btn btn-primary rounded-circle position-absolute top-50 end-0 translate-middle-y me-4 d-none d-md-flex align-items-center justify-content-center border-0 shadow" 
+          type="button" data-bs-target="#heroCarousel" data-bs-slide="next" 
+          style="width: 50px; height: 50px; z-index: 5;">
+    <span class="carousel-control-next-icon" style="width: 1.5rem; height: 1.5rem;" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+
+</div>
 
       <!-- Banner 2 Columnas -->
       <div class="container-fluid p-0"> 
