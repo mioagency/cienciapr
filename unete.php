@@ -30,7 +30,7 @@ include_once ('templates/breadcrumbs.php');
 		<?php include_once ('templates/fila-de-anuncio.php'); ?>
 	</section>
 	<!-- SECCIÓN DE TEXTO PRINCIPAL -->
-	<section class="container py-5 py-lg-8 pt-lg-4 pb-lg-4">
+	<section id="comunidadCienciaPR" class="container py-5 py-lg-8 pt-lg-4 pb-lg-4">
 		<!-- Eliminamos row-cols-2 para forzar el apilamiento en móviles -->
 		<div class="row row-cols-1 row-cols-md-2 g-4 g-lg-5">
 			<div class="col">
@@ -85,7 +85,7 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-	<section class="py-7 bg-primary pattern-grey">
+	<section id="redDeMuseosyCentrosDeCiencia" class="py-7 bg-primary pattern-grey">
     <div class="container">
       <h2 class="fs-2 text-primary fw-bold text-white text-center">Beneficios y oportunidades para miembros</h2>
       
@@ -191,7 +191,7 @@ include_once ('templates/breadcrumbs.php');
     </div>
   </section>
 	<!--Sección Compromisos de los miembros de CienciaPR -->
-	<section class="container py-5 py-lg-8">
+	<section id="registroDeiniciativasStemPR" class="container py-5 py-lg-8">
 		<div class="row row-cols-1 row-cols-md-2 g-4 g-lg-5">
 			<div class="col">
 				<div class="card h-100 border-0 rounded-20 overflow-hidden">
@@ -219,7 +219,7 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-	<section class="pb-5 py-md-8 pattern-grey-2">
+	<section id="busquedaDeMiembros" class="pb-5 py-md-8 pattern-grey-2">
         <div class="container">
             <div class="row p-3">
                 <div class="col-md-10 bg-primary rounded-20 mx-auto p-5">
