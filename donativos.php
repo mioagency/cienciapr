@@ -252,7 +252,7 @@ include_once ('templates/breadcrumbs.php');
                 <div class="col-12 col-md-4">
                     <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
                         <div class="col-12 bg-info rounded-2 d-flex flex-column justify-content-center align-items-center" style="min-height:300px;">
-                            <img src="<?= SERVER_URI ?>images/donativos-book.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
+                            <img src="<?= SERVER_URI ?>images/donativos-Book.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
                             <p class="fs-4 fw-bold text-white mb-0">Nuestros libros</p>
                         </div>
                         <div class="card-body d-flex flex-column justify-content-between p-4">
@@ -270,7 +270,7 @@ include_once ('templates/breadcrumbs.php');
                 <div class="col-12 col-md-4">
                     <div class="card h-100 min-h-card border-0 shadow-sm rounded-2 bg-light">
                         <div class="col-12 bg-tertiary rounded-2 d-flex flex-column justify-content-center align-items-center" style="min-height:300px;">
-                            <img src="<?= SERVER_URI ?>images/donativos-megafono.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
+                            <img src="<?= SERVER_URI ?>images/donativos-Megafono.svg" class="mb-3" alt="Convocatorias" style="max-width:125px;">
                             <p class="fs-4 fw-bold text-white mb-0">Anuncios</p>
                         </div>
                         <div class="card-body d-flex flex-column justify-content-between p-4">
