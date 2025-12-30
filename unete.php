@@ -56,7 +56,7 @@ include_once ('templates/breadcrumbs.php');
 	<section class="container py-5">
 		<div class="row">
 			<div class="col-12 col-md-10 offset-md-1">
-				<h2 class="fs-2 fw-bold display-5 mb-4 text-center">La membresía de CienciaPR está diseñada para individuos y organizaciones que desean</h2>
+				<h2 class="fs-2 fw-bold display-5 mb-4 text-start text-lg-center">La membresía de CienciaPR está diseñada para individuos y organizaciones que desean</h2>
 				<ul class="fs-5">
 					<li>Unirse a la comunidad interesada en la ciencia y Puerto Rico más grande del mundo y aumentar su visibilidad dentro del ecosistema STEM</li>
 					<li>Explorar las iniciativas de CienciaPR y su impacto en Puerto Rico y más allá</li>
@@ -64,7 +64,7 @@ include_once ('templates/breadcrumbs.php');
 					<li>Descubrir contenidos que celebran y divulgan la ciencia puertorriqueña</li>
 					<li>Involucrarse con la misión de CienciaPR o crear una alianza</li>
 				</ul>
-				<h2 class="fs-2 fw-bold display-5 mt-4 mb-4 text-center">¿Quiénes pueden ser miembros?</h2>
+				<h2 class="fs-2 fw-bold display-5 mt-4 mb-4 text-start text-lg-center">¿Quiénes pueden ser miembros?</h2>
 				<ul class="fs-5">
 					<li><strong>Individuos:</strong> Cualquier personas mayor de 13 años de edad interesada en la ciencia y Puerto Rico</li>
 					<li><strong>Organizaciones:</strong></li>
