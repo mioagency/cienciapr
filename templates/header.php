@@ -470,8 +470,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Registro de iniciativas STEM de PR</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>unete.php#redDeMuseosyCentrosDeCiencia">Red de Museos y Centros de Ciencia</a></li>                              
-                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>unete.php#registroDeiniciativasStemPR">Registro de iniciativas STEM de PR</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>unete.php#redDeMuseosyCentrosDeCiencia">Museos y STEM en Acción</a></li>                              
                             </ul>
                           </div>
                         </div>

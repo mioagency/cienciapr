@@ -53,6 +53,17 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
+	<!-- Sección Búsqueda de miembros -->
+	<section id="busquedaDeMiembros" class="pb-5 py-md-5">
+		<div class="container">
+			<div class="row p-3">
+				<div class="col-md-10 bg-primary d-flex flex-lg-row flex-column justify-content-between align-items-center rounded-20 mx-auto p-5">
+					<h2 class="fs-2 fw-bold display-5 text-white text-center">Búsqueda avanzada de miembros</h2>
+					<div class="text-center"><a href="#" class="btn btn-success fs-6">Explora perfiles avanzados</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="container py-5">
 		<div class="row">
 			<div class="col-12 col-md-10 offset-md-1">
@@ -85,7 +96,7 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-	<section id="redDeMuseosyCentrosDeCiencia" class="py-7 bg-primary pattern-grey">
+	<section class="py-7 bg-primary pattern-grey">
     <div class="container">
       <h2 class="fs-2 text-primary fw-bold text-white text-center">Beneficios y oportunidades para miembros</h2>
       
@@ -219,17 +230,60 @@ include_once ('templates/breadcrumbs.php');
 			</div>
 		</div>
 	</section>
-	<section id="busquedaDeMiembros" class="pb-5 py-md-8 pattern-grey-2">
-        <div class="container">
-            <div class="row p-3">
-                <div class="col-md-10 bg-primary rounded-20 mx-auto p-5">
-                    <h2 class="fs-2 fw-bold display-5 text-white mb-4 text-center">Búsqueda avanzada de miembros</h2>
-										<p class="fs-5 text-white text-center">¿Quieres encontrar a alguien que comparta tus intereses? Con la búsqueda avanzada de miembros puedes descubrir científicos, educadores y estudiantes según su especialidad, país o proyectos. Es una forma sencilla y rápida de conectar con personas que pueden inspirarte, ayudarte en tus estudios o colaborar contigo en nuevas ideas.</p>
-										<div class="text-center mt-3 pt-3"><a href="#" class="btn btn-success fs-6">Explora perfiles avanzados</a></div>
+	<section id="redDeMuseosyCentrosDeCiencia" class="container-fluid p-3 p-lg-6">
+    <div class="p-4 p-lg-6 bg-primary text-white rounded-20">
+        <h2 class="fs-2 fw-bold text-white text-center mb-4">Explora y Conecta: Museos y STEM en Acción</h2>
+
+        <div class="d-flex justify-content-center mb-5">
+            <ul class="nav nav-pills flex-column flex-sm-row gap-2" id="iniciativasTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="btn btn-outline-light w-100 active" id="red-museos-tab" data-bs-toggle="tab" data-bs-target="#red-museos-content" type="button" role="tab" aria-controls="red-museos-content" aria-selected="true">
+                        Red de Museos y Centros de Ciencia
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="btn btn-outline-light w-100" id="registro-stem-tab" data-bs-toggle="tab" data-bs-target="#registro-stem-content" type="button" role="tab" aria-controls="registro-stem-content" aria-selected="false">
+                        Registro de iniciativas STEM
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="iniciativasTabContent">
+
+            <div class="tab-pane fade show active" id="red-museos-content" role="tabpanel" aria-labelledby="red-museos-tab">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="<?= SERVER_URI ?>/images/3-unete-red-de-museos.webp" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" alt="Red de Museos y Centros de Ciencia" style="min-height: 300px;">
+                    </div>
+                    <div class="col-lg-6 text-start">
+                        <h3 class="fs-3 fw-bold mb-3">Red de Museos y Centros de Ciencia y Tecnología de Puerto Rico</h3>
+                        <p class="fs-5 fw-light mb-4">
+                            Es una iniciativa que busca unir y fortalecer a las instituciones que promueven la ciencia, la tecnología, la ingeniería y las matemáticas y su integración con las artes (STEAM) a través de la educación, la cultura y el turismo científico.
+                        </p>
+                        <a href="#" class="btn btn-success fs-6">Ver más información</a>
+                    </div>
                 </div>
             </div>
+
+            <div class="tab-pane fade" id="registro-stem-content" role="tabpanel" aria-labelledby="registro-stem-tab">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <img src="<?= SERVER_URI ?>/images/3-unete-registro-de-iniciativas-stem.webp" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" alt="Registro de iniciativas STEM" style="min-height: 300px;">
+                    </div>
+                    <div class="col-lg-6 text-start">
+                        <h3 class="fs-3 fw-bold mb-3">Registro de iniciativas STEM</h3>
+                        <p class="fs-5 fw-light mb-4">
+                            Este registro recopila información clave sobre organizaciones que trabajan iniciativas relacionadas con Ciencia, Tecnología, Ingeniería y Matemáticas (STEM) en Puerto Rico. Las organizaciones que registren sus iniciativas serán incluídas en el Mapa del Ecosistema STEM de Puerto Rico.
+                        </p>
+                        <a href="#" class="btn btn-success fs-6">Ver más información</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 </main>
 
 <?php
