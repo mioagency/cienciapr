@@ -189,7 +189,7 @@ include_once ('templates/breadcrumbs.php');
 			<?php include_once ('templates/fila-de-anuncio.php'); ?>
 		</section>
 		<!-- Eventos resaltados -->
-		<section class="pb-7">
+		<section class="pb-7 carousel-module">
 			<div class="container">
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
@@ -197,10 +197,10 @@ include_once ('templates/breadcrumbs.php');
 							<h2 class="fs-2 text-body fw-bold">Eventos resaltados</h2>
 							<!-- Botones de navegación -->
 							<div class="pt-3 pt-md-0 d-flex">
-									<button class="btn bg-primary text-white rounded-circle p-0" style="width: 32px; height: 32px;" id="btnPrev" aria-label="Anterior">
+									<button class="btn bg-primary text-white js-prev rounded-circle p-0" style="width: 32px; height: 32px;" id="btnPrev" aria-label="Anterior">
 											<i class="fa-solid fa-arrow-left"></i>
 									</button>
-									<button class="btn bg-primary text-white rounded-circle p-0 ms-2" style="width: 32px; height: 32px;" id="btnNext" aria-label="Siguiente">
+									<button class="btn bg-primary text-white js-next rounded-circle p-0 ms-2" style="width: 32px; height: 32px;" id="btnNext" aria-label="Siguiente">
 											<i class="fa-solid fa-arrow-right"></i>
 									</button>
 							</div>
@@ -215,7 +215,7 @@ include_once ('templates/breadcrumbs.php');
 					- overflow-x-auto: Activa el scroll.
 					- g-4: Espacio entre tarjetas (gap).
 				-->
-				<div id="sliderContainer" class="row flex-nowrap overflow-x-auto no-scrollbar g-4 scroll-smooth">
+				<div class="slider-track slider-wrapper row flex-nowrap overflow-x-auto no-scrollbar g-4 py-3 scroll-smooth">
 						
 						<!-- ITEM 1 -->
 						<!-- 
