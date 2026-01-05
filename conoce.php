@@ -633,7 +633,6 @@ include_once('templates/breadcrumbs.php');
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 				
