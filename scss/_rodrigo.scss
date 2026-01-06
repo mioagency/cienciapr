@@ -140,3 +140,27 @@
     font-size: 1.25rem;
   }
 }
+
+/* Archive de Noticias */
+/* Hero Carousel - Navegación */
+/* Personalización de flechas del carrusel */
+/* Asegúrate de copiar todo este bloque */
+#heroCarousel .carousel-control-prev,
+#heroCarousel .carousel-control-next {
+  width: 3.5rem; /* Ancho de la caja */
+  height: 3.5rem; /* Alto de la caja */
+  background-color: rgba(51, 51, 51, 0.8);
+
+  /* CENTRADO VERTICAL */
+  top: 50%; /* Mover al 50% del contenedor */
+  transform: translateY(-50%); /* Corregir el desplazamiento */
+  bottom: auto; /* IMPORTANTE: Libera el ancla inferior */
+
+  opacity: 1; /* Siempre visibles */
+  z-index: 10; /* Asegura que queden por encima de todo */
+}
+
+#heroCarousel .carousel-control-prev:hover,
+#heroCarousel .carousel-control-next:hover {
+  background-color: rgba(51, 51, 51, 1);
+}
