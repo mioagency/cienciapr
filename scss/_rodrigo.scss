@@ -164,3 +164,18 @@
 #heroCarousel .carousel-control-next:hover {
   background-color: rgba(51, 51, 51, 1);
 }
+
+/* Página user.php */
+/* Custom Button Hover Override */
+.btn-hover-primary-interaction {
+  /* Estado Normal (Hereda estilos de btn-outline-secondary o los forzamos aquí si es necesario) */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estado Hover y Focus */
+.btn-hover-primary-interaction:hover,
+.btn-hover-primary-interaction:focus {
+  background-color: var(--bs-primary) !important; /* Fondo Primario */
+  border-color: var(--bs-primary) !important; /* Borde Primario */
+  color: #fff !important; /* Texto Blanco */
+}
