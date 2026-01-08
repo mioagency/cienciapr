@@ -950,8 +950,8 @@ include_once ('templates/breadcrumbs.php');
 					<?php include 'templates/linea-divisora.php'; ?>
 				</div>    
 			<form class="d-flex flex-column mt-3">
-				<input class="form-control bg-white p-3" type="email" placeholder="Ingresa tu correo">
-				<button class="btn btn-success mt-3 p-3" type="submit">Suscribirme</button>
+				<input class="form-control bg-white p-2" type="email" placeholder="Ingresa tu correo">
+				<button class="btn btn-success mt-3 p-2" type="submit">Suscribirme</button>
 			</form>
 			<div class="mt-2">
 					<div class="fs-9">Al registrarme, acepto los <a href="#" class="m-0 text-decoration-none fw-bold text-reset">Términos y Condiciones</a></div>
