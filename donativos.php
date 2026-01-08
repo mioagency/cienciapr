@@ -207,15 +207,24 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
     
-    <!-- CORPORATIVO -->
-    <section id="corporativosFilantropicos" class="bg-primary py-5 p-md-8">
+		<!-- CORPORATIVO -->
+    <section id="corporativosFilantropicos" class="bg-primary py-3 pt-md-4 pb-md-7">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-7 mx-auto text-center">
-                    <h2 class="fs-2 fw-semibold text-white">Donativo Corporativo</h2>
-                    <p class="fs-5 fw-light text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
-                    <a href="#" class="btn btn-success text-dark btn-lg fs-7">Haz tu aporte a la ciencia</a>
-                </div>
+                <div class="row gx-md-5 gy-4 align-items-stretch">
+									<div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+											<div class="p-5">
+													<div class="p-0">
+															<h2 class="fs-2 fw-semibold text-white mb-3">Donativo Corporativo</h2>
+															<p class="fs-5 fw-light text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
+													</div>
+													<!--<a href="#" class="btn btn-success text-dark btn-lg fs-7">Haz tu aporte a la ciencia</a>-->
+											</div>
+									</div>
+									<div class="col-12 col-md-6 d-flex flex-column">
+											<img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donation.webp" alt="Estudiantes de Ciencia PR" >
+									</div>
+								</div>
             </div>
         </div>
     </section>
