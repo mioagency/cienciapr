@@ -404,6 +404,7 @@ include_once ('templates/breadcrumbs.php');
 					</ul>
 				</div>
 			</div>
+			<!-- Nuestros Miembros -->
 			<div class="py-3 carousel-module">
 				<div class="d-flex flex-wrap align-items-end justify-content-start mb-3 px-1">
 					<div class="d-flex col-12 align-items-center justify-content-between gap-2">
@@ -421,7 +422,7 @@ include_once ('templates/breadcrumbs.php');
 				</div>
 				<div class="container-fluid px-0">
 					<div class="slider-track slider-wrapper row flex-nowrap overflow-x-auto no-scrollbar g-0 py-3 scroll-smooth" style="scroll-snap-type: x mandatory;">
-						<div class="col-4 flex-shrink-0" style="scroll-snap-align: start;">
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
 							<div class="card h-100 border-0 bg-transparent align-items-center">
 								<img src="<?= SERVER_URI ?>images/team-da-1.webp" 
 										alt="Nombre" 
@@ -433,7 +434,7 @@ include_once ('templates/breadcrumbs.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-4 flex-shrink-0" style="scroll-snap-align: start;">
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
 							<div class="card h-100 border-0 bg-transparent align-items-center">
 								<img src="<?= SERVER_URI ?>images/team-gg-2.webp" 
 										alt="Nombre" 
@@ -444,7 +445,7 @@ include_once ('templates/breadcrumbs.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-4 flex-shrink-0" style="scroll-snap-align: start;">
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
 							<div class="card h-100 border-0 bg-transparent align-items-center">
 								<img src="<?= SERVER_URI ?>images/team-mifm-3.webp" 
 										alt="Nombre" 
@@ -455,7 +456,52 @@ include_once ('templates/breadcrumbs.php');
 								</div>
 							</div>
 						</div>
-						<div class="col-4 flex-shrink-0" style="scroll-snap-align: start;">
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
+							<div class="card h-100 border-0 bg-transparent align-items-center">
+								<img src="<?= SERVER_URI ?>images/team-wdj-4.webp" 
+										alt="Nombre" 
+										class="rounded-circle shadow-sm mb-2" 
+										style="width: 80px; height: 80px; object-fit: cover;">
+								<div class="text-center">
+									<p class="small fw-bold lh-sm mb-0 text-body">Nombre<br>Apellido</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
+							<div class="card h-100 border-0 bg-transparent align-items-center">
+								<img src="<?= SERVER_URI ?>images/team-da-1.webp" 
+										alt="Nombre" 
+										class="rounded-circle shadow-sm mb-2" 
+										style="width: 80px; height: 80px; object-fit: cover;">
+								
+								<div class="text-center">
+									<p class="small fw-bold lh-sm mb-0 text-body">Nombre<br>Apellido</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
+							<div class="card h-100 border-0 bg-transparent align-items-center">
+								<img src="<?= SERVER_URI ?>images/team-gg-2.webp" 
+										alt="Nombre" 
+										class="rounded-circle shadow-sm mb-2" 
+										style="width: 80px; height: 80px; object-fit: cover;">
+								<div class="text-center">
+									<p class="small fw-bold lh-sm mb-0 text-body">Nombre<br>Apellido</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
+							<div class="card h-100 border-0 bg-transparent align-items-center">
+								<img src="<?= SERVER_URI ?>images/team-mifm-3.webp" 
+										alt="Nombre" 
+										class="rounded-circle shadow-sm mb-2" 
+										style="width: 80px; height: 80px; object-fit: cover;">
+								<div class="text-center">
+									<p class="small fw-bold lh-sm mb-0 text-body">Nombre<br>Apellido</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-3 flex-shrink-0" style="scroll-snap-align: start;">
 							<div class="card h-100 border-0 bg-transparent align-items-center">
 								<img src="<?= SERVER_URI ?>images/team-wdj-4.webp" 
 										alt="Nombre" 
