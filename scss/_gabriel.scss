@@ -43,6 +43,12 @@ $donativos-bg-hero: url("../images/donativos-bg-hero.jpg");
 
 // UTILITIES
 // ===========================
+#header .navbar-nav li a.dropdown-item:hover,
+#footer ul li a:hover {
+    color: var(--bs-primary) !important;
+    background-color: transparent;
+}
+
 .bg-cover {background-size: cover;}
 .bg-center {background-position: center;}
 .mw-100 {max-width:1000px;}

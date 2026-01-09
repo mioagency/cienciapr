@@ -41,7 +41,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
       <a href="#" class="text-light text-decoration-none me-3"><i class="fas fa-search"></i></a>
       <a href="#" class="text-light text-decoration-none me-3">Inglés</a>
       <a href="<?= SERVER_URI ?>register.php"" class="text-light text-decoration-none me-3"><i class="fas fa-user-plus me-1"></i> Regístrate</a>
-      <a href="#" class="text-light text-decoration-none me-3"><i class="fas fa-user me-1"></i> Mi cuenta</a>
+      <a href="<?= SERVER_URI ?>user.php" class="text-light text-decoration-none me-3"><i class="fas fa-user me-1"></i> Mi cuenta</a>
       <a href="<?= SERVER_URI ?>login.php"" class="text-light text-decoration-none"><i class="fas fa-arrow-right-to-bracket me-1"></i> Ingresar</a>
     </div>
   </div>
@@ -84,8 +84,8 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
                       <div class="col-lg-3">
-                        <img src="https://placehold.co/400x300/EBF3E4/EBF3E4" class="img-fluid rounded" alt="Placeholder Menú Conoce" 
-                             onerror="this.onerror=null;this.src='https://placehold.co/400x300/EEEEEE/EEEEEE'">
+                        <img src="https://images.unsplash.com/photo-1730875649131-7fa5d86d02e2?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded object-fit-cover" alt="Placeholder Menú Conoce" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/400x300/EEEEEE/EEEEEE'" width="276" height="207">
                       </div>
                       
                       <!-- Contenedor de las columnas de enlaces -->
@@ -160,7 +160,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuConocenos-3" data-bs-parent="#conocenosMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Servicios y contrataciones</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>conoce.php#servicios-contrataciones">Servicios y contrataciones</a></li>
                           </ul>
                         </div>
                       </li>
@@ -185,7 +185,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                       <!-- Columna de la Imagen -->
                       <div class="col-lg-3">
                         <img src="https://placehold.co/400x300/F3F0EB/F3F0EB" class="img-fluid rounded" alt="Placeholder Menú Explora" 
-                             onerror="this.onerror=null;this.src='https://placehold.co/400x300/EEEEEE/EEEEEE'">
+                             onerror="this.onerror=null;this.src='https://placehold.co/400x300/EEEEEE/EEEEEE'" width="400" height="300">
                       </div>
                       
                       <!-- Contenedor de las columnas de enlaces -->
@@ -238,10 +238,10 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuExplora-1" data-bs-parent="#exploraMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Unidad de participación pública en la ciencia</a></li>
-                            <li><a class="dropdown-item" href="#">Comunicación científica</a></li>
-                            <li><a class="dropdown-item" href="#">Aquí Nos Cuidamos</a></li>
-                            <li><a class="dropdown-item" href="#">CienciaCoLab</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">Unidad de participación pública en la ciencia</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">Comunicación científica</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">Aquí Nos Cuidamos</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>comunicacion-iniciativas-comunitarias.php#iniciativas">CienciaCoLab</a></li>
                           </ul>
                         </div>
                       </li>
@@ -252,12 +252,12 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuExplora-2" data-bs-parent="#exploraMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Unidad de educación en ciencia</a></li>
-                            <li><a class="dropdown-item" href="#">Catálogo de recursos educativos</a></li>
-                            <li><a class="dropdown-item" href="#">Visitas a escuelas y charlas virtuales</a></li>
-                            <li><a class="dropdown-item" href="#">Semillas de Triunfo</a></li>
-                            <li><a class="dropdown-item" href="#">For Girls in Science-PR</a></li>
-                            <li><a class="dropdown-item" href="#">Otras iniciativas</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Unidad de educación en ciencia</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Catálogo de recursos educativos</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Visitas a escuelas y charlas virtuales</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Semillas de Triunfo</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">For Girls in Science-PR</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Otras iniciativas</a></li>
                           </ul>
                         </div>
                       </li>
@@ -268,11 +268,11 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuExplora-3" data-bs-parent="#exploraMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Unidad de desarrollo de talento y liderazgo científico</a></li>
-                            <li><a class="dropdown-item" href="#">Inclusive Reflexive Fellowship</a></li>
-                            <li><a class="dropdown-item" href="#">Yale Ciencia Academy</a></li>
-                            <li><a class="dropdown-item" href="#">PR Science Policy Action Network</a></li>
-                            <li><a class="dropdown-item" href="#">Webinarios y certificaciones UPR-IPERT</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Unidad de desarrollo de talento y liderazgo científico</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Inclusive Reflexive Fellowship</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Yale Ciencia Academy</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">PR Science Policy Action Network</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>talento-y-liderazgo.php#iniciativas">Webinarios y certificaciones UPR-IPERT</a></li>
                           </ul>
                         </div>
                       </li>
@@ -332,7 +332,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuParticipa-1" data-bs-parent="#participaMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Foro de oportunidades</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#foro-oportunidades">Foro de oportunidades</a></li>
                           </ul>
                         </div>
                       </li>
@@ -343,7 +343,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuParticipa-2" data-bs-parent="#participaMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Calendario de eventos</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#seccion-eventos">Calendario de eventos</a></li>
                           </ul>
                         </div>
                       </li>
@@ -409,11 +409,11 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuDescubre-1" data-bs-parent="#descubreMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Blog CienciaPR</a></li>
-                            <li><a class="dropdown-item" href="#">Noticias científicas</a></li>
-                            <li><a class="dropdown-item" href="#">Perfiles de la Ciencia Boricua</a></li>
-                            <li><a class="dropdown-item" href="#">Ciencia Boricua TV</a></li>
-                            <li><a class="dropdown-item" href="#">Jueves de Ciencia Boricua</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>ciencia-boricua.php#blogCiencia">Blog CienciaPR</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>ciencia-boricua.php#noticias">Noticias científicas</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>ciencia-boricua.php#perfiles">Perfiles de la Ciencia Boricua</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>ciencia-boricua.php#cienciaBoricuaTV">Ciencia Boricua TV</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>ciencia-boricua.php#juevesCienciaBoricua">Jueves de Ciencia Boricua</a></li>
                           </ul>
                         </div>
                       </li>
@@ -470,7 +470,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Registro de iniciativas STEM de PR</h6>
                             <ul class="list-unstyled mt-3 mb-0">
-                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>unete.php#redDeMuseosyCentrosDeCiencia">Museos y STEM en Acción</a></li>                              
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>unete.php#redDeMuseosyCentrosDeCiencia">Museos y STEM en acción</a></li>                              
                             </ul>
                           </div>
                         </div>
@@ -487,8 +487,8 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuUnete-1" data-bs-parent="#uneteMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Membresía individual y organizacional</a></li>
-                            <li><a class="dropdown-item" href="#">Búsqueda de miembros</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>unete.php#comunidadCienciaPR">Membresía individual y organizacional</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>unete.php#busquedaDeMiembros">Búsqueda de miembros</a></li>
                           </ul>
                         </div>
                       </li>
@@ -499,8 +499,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuUnete-2" data-bs-parent="#uneteMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Red de Museos y Centros de Ciencia</a></li>                             
-                            <li><a class="dropdown-item" href="#">Registro de iniciativas STEM de PR</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>unete.php#redDeMuseosyCentrosDeCiencia">Museos y STEM en acción</a></li>
                           </ul>
                         </div>
                       </li>
@@ -575,12 +574,12 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuInvolucrate-1" data-bs-parent="#involucrateMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Donativos individuales (home)</a></li>
-                            <li><a class="dropdown-item" href="#">Programa de donativos recurrentes</a></li>
-                            <li><a class="dropdown-item" href="#">Duplicación de donativos</a></li>
-                            <li><a class="dropdown-item" href="#">Campañas de recaudación</a></li>
-                            <li><a class="dropdown-item" href="#">Amazon Wishlist</a></li>
-                            <li><a class="dropdown-item" href="#">Donativos corporativos y filantrópicos</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php">Donativos individuales</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#donativosRecurrentes">Programa de donativos recurrentes</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#duplicacionDonativos">Duplicación de donativos</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#donativosRecaudacion">Campañas de recaudación</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#amazonWishlist">Amazon Wishlist</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#corporativosFilantropicos">Donativos corporativos y filantrópicos</a></li>
                           </ul>
                         </div>
                       </li>
@@ -591,9 +590,9 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuInvolucrate-2" data-bs-parent="#involucrateMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Tienda</a></li>
-                            <li><a class="dropdown-item" href="#">Publicaciones en Amazon</a></li>
-                            <li><a class="dropdown-item" href="#">Anuncios</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#ventas">Tienda</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#ventas">Publicaciones en Amazon</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#ventas">Anuncios</a></li>
                           </ul>
                         </div>
                       </li>
@@ -604,8 +603,8 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuInvolucrate-3" data-bs-parent="#involucrateMobileAccordion">
                           <ul class="list-unstyled ms-4">
-                            <li><a class="dropdown-item" href="#">Alianzas</a></li>
-                            <li><a class="dropdown-item" href="#">Voluntariado</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado">Alianzas</a></li>
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>donativos.php#alianzasVoluntariado">Voluntariado</a></li>
                           </ul>
                         </div>
                       </li>
@@ -626,15 +625,15 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         <i class="fas fa-globe d-block mb-1"></i>
                         <small>Inglés</small>
                     </a>
-                    <a href="#" class="nav-link text-center px-1">
+                    <a href="<?= SERVER_URI ?>register.php" class="nav-link text-center px-1">
                         <i class="fas fa-user-plus d-block mb-1"></i>
-                        <small>Únete</small>
+                        <small>Regístrate</small>
                     </a>
-                    <a href="#" class="nav-link text-center px-1">
+                    <a href="<?= SERVER_URI ?>user.php" class="nav-link text-center px-1">
                         <i class="fas fa-user d-block mb-1"></i>
                         <small>Mi cuenta</small>
                     </a>
-                    <a href="#" class="nav-link text-center px-1">
+                    <a href="<?= SERVER_URI ?>login.php" class="nav-link text-center px-1">
                         <i class="fas fa-arrow-right-to-bracket d-block mb-1"></i>
                         <small>Ingresar</small>
                     </a>
