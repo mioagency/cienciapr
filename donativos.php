@@ -62,38 +62,38 @@ include_once ('templates/breadcrumbs.php');
 
     <section id="donativosRecurrentes" class="py-5 py-md-8">
         <div class="container">
-            <div class="row gx-md-5 justify-content-center">
+            <div class="row gx-md-5 justify-content-center col-md-9 mx-auto">
                 <div class="col-12 text-center mb-md-5">
                     <h2 class="fs-2 fw-semibold">También puedes usar las siguientes opciones</h2>
                 </div>
-                <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
-                    <div class="p-4 h-100">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-between">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/paypal.svg" alt="Logo de Paypal">
                         <a target="_blank" href="#" class="btn btn-primary text-white btn-lg fs-7">Donar con PayPal</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
-                    <div class="p-4 h-100">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-between">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/ATH Movil.svg" alt="Logo de ATH Móvil">
                         <a target="_blank" href="https://drive.google.com/file/d/1_9VmzaJciQwHvnAe-FvWcpxj6xK4721p/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar con ATH Móvil</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 text-center">
-                    <div class="p-4 h-100">
+                <div class="col-12 col-md-4 text-center">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-between">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
                         <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar cuenta bancaria</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 text-center">
-                    <div class="p-4 h-100">
-                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
-                        <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar acciones</a>
+                <div class="col-12 col-md-4 text-center">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-between">
+                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-acciones.svg" alt="Donativo por acciones">
+                        <a target="_blank" href="https://drive.google.com/file/d/11rDLyKd5snA7KjsTtT5iPt_IPFVtVbjQ/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar acciones</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 text-center">
-                    <div class="p-4 h-100">
-                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
-                        <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar Cryptomonedas</a>
+                <div class="col-12 col-md-4 text-center">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-between">
+                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-cripto.svg" alt="Donativo por criptomonedas">
+                        <a target="_blank" href="https://www.every.org/ciencia-puerto-rico?donateTo=ciencia-puerto-rico#/donate/crypto" class="btn btn-primary text-white btn-lg fs-7">Donar Criptomonedas</a>
                     </div>
                 </div>
             </div>
