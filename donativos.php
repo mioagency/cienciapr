@@ -62,26 +62,38 @@ include_once ('templates/breadcrumbs.php');
 
     <section id="donativosRecurrentes" class="py-5 py-md-8">
         <div class="container">
-            <div class="row gx-md-5">
+            <div class="row gx-md-5 justify-content-center">
                 <div class="col-12 text-center mb-md-5">
                     <h2 class="fs-2 fw-semibold">También puedes usar las siguientes opciones</h2>
                 </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
+                <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                     <div class="p-4 h-100">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/paypal.svg" alt="Logo de Paypal">
                         <a target="_blank" href="#" class="btn btn-primary text-white btn-lg fs-7">Donar con PayPal</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
+                <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                     <div class="p-4 h-100">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/ATH Movil.svg" alt="Logo de ATH Móvil">
                         <a target="_blank" href="https://drive.google.com/file/d/1_9VmzaJciQwHvnAe-FvWcpxj6xK4721p/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar con ATH Móvil</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 text-center">
+                <div class="col-12 col-md-3 text-center">
                     <div class="p-4 h-100">
                         <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
                         <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar cuenta bancaria</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center">
+                    <div class="p-4 h-100">
+                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
+                        <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar acciones</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center">
+                    <div class="p-4 h-100">
+                        <img class="w-100 mb-4" src="<?= SERVER_URI ?>images/donativos-Banco.svg" alt="Donativo por banco">
+                        <a target="_blank" href="https://drive.google.com/file/d/1LeDzG9R40zGK_mKI8TnyURPtb3BV-vyG/view?usp=sharing" class="btn btn-primary text-white btn-lg fs-7">Donar Cryptomonedas</a>
                     </div>
                 </div>
             </div>
@@ -207,24 +219,24 @@ include_once ('templates/breadcrumbs.php');
         </div>
     </section>
     
-		<!-- CORPORATIVO -->
+    <!-- CORPORATIVO -->
     <section id="corporativosFilantropicos" class="bg-primary py-3 pt-md-4 pb-md-7">
         <div class="container-fluid">
             <div class="row">
                 <div class="row gx-md-5 gy-4 align-items-stretch">
-									<div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-											<div class="p-5">
-													<div class="p-0">
-															<h2 class="fs-2 fw-semibold text-white mb-3">Donativo Corporativo</h2>
-															<p class="fs-5 fw-light text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
-													</div>
-													<!--<a href="#" class="btn btn-success text-dark btn-lg fs-7">Haz tu aporte a la ciencia</a>-->
-											</div>
-									</div>
-									<div class="col-12 col-md-6 d-flex flex-column">
-											<img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donation.webp" alt="Estudiantes de Ciencia PR" >
-									</div>
-								</div>
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                        <div class="p-5">
+                            <div class="p-0">
+                                <h2 class="fs-2 fw-semibold text-white mb-3">Donativo Corporativo</h2>
+                                <p class="fs-5 fw-light text-white mb-5">Tu empresa puede ser parte del cambio. Con un donativo apoyas programas que inspiran a jóvenes, fortalecen la educación científica y conectan la ciencia con nuestra comunidad. Cada aporte suma y abre puertas hacia un Puerto Rico más innovador y justo.</p>
+                            </div>
+                            <!--<a href="#" class="btn btn-success text-dark btn-lg fs-7">Haz tu aporte a la ciencia</a>-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column">
+                            <img class="rounded-20 w-100 flex-grow-1 object-fit-cover" src="<?= SERVER_URI ?>images/donation.webp" alt="Estudiantes de Ciencia PR" >
+                    </div>
+                </div>
             </div>
         </div>
     </section>
