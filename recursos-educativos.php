@@ -86,7 +86,7 @@ include_once ('templates/breadcrumbs.php');
 				</div>
 			</div>
 		</div>
-		<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-primary text-white fs-6">Cargar más recursos</a></div>
+		<div class="text-center mt-3 mt-md-5"><a href="#" class="btn btn-tertiary text-white fs-6">Cargar más recursos</a></div>
 	</section>
 
     <!-- SECCION NOTICIAS -->
