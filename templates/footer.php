@@ -23,11 +23,11 @@
           <div class="col-lg-3 col-md-4 col-6 mb-4">
             <h5 class="mb-3">Privacidad</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Política de Privacidad</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Términos y Condiciones</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Normas de la Comunidad</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Sobre CienciaPR</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Contacto</a></li>
+              <li class="mb-2"><a href="<?= SERVER_URI ?>politica-de-uso-y-de-privacidad.php" class="text-light text-decoration-none">Política de Privacidad</a></li>
+              <li class="mb-2"><a href="<?= SERVER_URI ?>politica-de-uso-y-de-privacidad.php" class="text-light text-decoration-none">Términos y Condiciones</a></li>
+              <li class="mb-2"><a href="<?= SERVER_URI ?>normas-comunidad.php" class="text-light text-decoration-none">Normas de la Comunidad</a></li>
+              <li class="mb-2"><a href="<?= SERVER_URI ?>conoce.php" class="text-light text-decoration-none">Sobre CienciaPR</a></li>
+              <li class="mb-2"><a href="mailto:contact@cienciapr.org" class="text-light text-decoration-none">Contacto</a></li>
             </ul>
           </div>
 
