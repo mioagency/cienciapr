@@ -46,11 +46,11 @@
             <p class="mb-0 small">Copyright © 2006-Presente CienciaPR y CAPRI, excepto donde sea indicado lo contrario</p>
           </div>
           <div class="col-md-4 text-center text-md-end">
-            <a href="#" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-light me-2"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-light me-2"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-light me-2"><i class="fab fa-tiktok"></i></a>
-            <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+            <a target="_blank" href="https://www.facebook.com/cienciapr" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/ciencia.pr" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/cienciapr" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.youtube.com/@CienciaprOrg" class="text-light me-2"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/ciencia-puerto-rico" class="text-light"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
