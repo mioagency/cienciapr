@@ -98,7 +98,7 @@ $border-widths: (
 // 4. Fuentes
 $fonts: (
   // inter: "Inter",
-  dm-sans: "DM Sans",
+  dm-sans: "DM Sans"
 );
 
 $font-family-dm-sans: map.get($fonts, dm-sans);
@@ -192,7 +192,6 @@ $home-bg-hero: url("../images/home-hero-bg.webp");
 $ciencia-boricua-bg-hero: url("../images/descubre-header-bg.webp");
 $educacion-k12-bg-hero: url("../images/educacion-k12-bg.jpg");
 
-
 .home-hero {
   background-image: $home-bg-hero;
   background-size: cover;
@@ -201,16 +200,16 @@ $educacion-k12-bg-hero: url("../images/educacion-k12-bg.jpg");
 
 .page-hero-bg {
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   min-height: 250px;
 }
 
 .bg-img_ciencia-boricua {
-  background-image: $ciencia-boricua-bg-hero; 
-  }
+  background-image: $ciencia-boricua-bg-hero;
+}
 
 .bg-img_educacion-k12 {
-  background-image: $educacion-k12-bg-hero; 
+  background-image: $educacion-k12-bg-hero;
 }
 
 $icon-pattern: url("../images/pattern-grey.png");
@@ -227,7 +226,7 @@ $icon-pattern: url("../images/pattern-grey.png");
     height: 100%;
     top: 0;
     right: 0;
-    opacity: .5;
+    opacity: 0.5;
     background-position: right center;
     background-repeat: no-repeat;
     background-size: 65%;
@@ -240,7 +239,6 @@ $icon-pattern: url("../images/pattern-grey.png");
     background-size: 170%;
   }
 }
-
 
 $icon-pattern-2: url("../images/pattern-2.webp");
 
@@ -302,16 +300,14 @@ $video-placeholder: url("../images/video-placeholder.webp");
   object-fit: cover;
 }
 
-
 // ===================================================
 //  Loops de Blogs, noticias y otros
 // ===================================================
-    .blog_image-size-y {
-      max-height:250px;
-      width:100%;
-      object-fit: cover;
-    }
-
+.blog_image-size-y {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
 
 /*INICIO: Estilos para Mega Menú en Hover (Desktop) - REINSERTADO*/
 @media (min-width: 992px) {

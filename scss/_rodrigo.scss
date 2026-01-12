@@ -18,6 +18,11 @@
   background-position: right 16vh;
   background-repeat: no-repeat;
 }
+.recursos-hero {
+  background-image: url("../images/bg-estudiantes-k12.webp");
+  background-size: cover;
+  background-position: center;
+}
 .bg-footer-gradient {
   background: linear-gradient(to right, #183238, #1b1b1b);
 }
@@ -178,4 +183,22 @@
   background-color: var(--bs-primary) !important; /* Fondo Primario */
   border-color: var(--bs-primary) !important; /* Borde Primario */
   color: #fff !important; /* Texto Blanco */
+}
+
+/* El navegador simplemente detiene el scroll donde termina la animación */
+.scroll-snap {
+  // 1. Activa el comportamiento de "imán" en el eje horizontal (x)
+  scroll-snap-type: x mandatory;
+
+  // Asegura que el padding del scroll se respete si hubiera headers fijos (opcional, pero buena práctica)
+  scroll-padding-left: 0;
+}
+
+// Apuntamos a las columnas directas dentro del carrusel (las cards)
+.scroll-snap > .col-12 {
+  // 2. Define que el punto de alineación es el INICIO (izquierda) de cada tarjeta
+  scroll-snap-align: start;
+
+  // Evita que el navegador corte una tarjeta a la mitad si es posible
+  scroll-snap-stop: always;
 }
