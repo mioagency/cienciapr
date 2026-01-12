@@ -208,7 +208,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php">Unidad de educación en ciencia</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Catálogo de recursos educativos</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Visitas a escuelas y charlas virtuales</a></li>
-                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Semillas de Triunfo</a></li>
+                              <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>semillas-de-triunfo.php">Semillas de Triunfo</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">For Girls in Science-PR</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>educacion-k-12.php#iniciativas">Otras iniciativas</a></li>
                             </ul>
