@@ -14,7 +14,7 @@
               <li class="mb-2"><a href="#" class="text-light text-decoration-none">Convocatorias</a></li>
               <li class="mb-2"><a href="#" class="text-light text-decoration-none">Iniciativas</a></li>
               <li class="mb-2"><a href="#" class="text-light text-decoration-none">Noticias</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Eventos</a></li>
+              <li class="mb-2"><a href="<?= SERVER_URI ?>participa.php#seccion-eventos" class="text-light text-decoration-none">Eventos</a></li>
               <li class="mb-2"><a href="#" class="text-light text-decoration-none">Recursos</a></li>
               <li class="mb-2"><a href="#" class="text-light text-decoration-none">Comunidad</a></li>
             </ul>
