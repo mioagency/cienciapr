@@ -28,8 +28,8 @@ include_once ('templates/header.php'); ?>
     <div class="carousel-item active">
       <div class="hero-slide home-hero">
         <div class="container px-4 px-md-5">
-          <div class="row align-items-center py-5" style="min-height: 80vh;"> 
-            <div class="col-lg-6 pe-lg-5 ps-lg-4"> 
+          <div class="row align-items-center py-5 vh-100"> 
+            <div class="col-8 col-lg-6 pe-lg-5 ps-lg-4"> 
               <h1 class="display-4 fw-bold mb-3 text-body">La <span class="text-primary">red global</span> que conecta ciencia y Puerto Rico</h1>
               <p class="fs-5 mb-4 text-body">Conectamos a científicos, estudiantes y educadores con interés en la ciencia y Puerto Rico para transformar la educación, la investigación y la cultura científica.</p>
               <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Conoce más</a>
@@ -43,8 +43,8 @@ include_once ('templates/header.php'); ?>
     <div class="carousel-item">
       <div class="hero-slide" style="background: url('https://placehold.co/1920x800/2b493d/3d5f52') no-repeat center center / cover;">
         <div class="container px-4 px-md-5">
-          <div class="row align-items-center py-5" style="min-height: 80vh;">
-            <div class="col-lg-6 pe-lg-5 ps-lg-4">
+          <div class="row align-items-center py-5 vh-100">
+            <div class="col-8 col-lg-6 pe-lg-5 ps-lg-4">
               <h1 class="display-4 fw-bold mb-3 text-white">Educación <span class="text-primary">científica</span> de calidad</h1>
               <p class="fs-5 mb-4 text-white">Proveemos recursos educativos y programas que inspiran a la próxima generación de científicos puertorriqueños.</p>
               <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Ver programas</a>
@@ -58,8 +58,8 @@ include_once ('templates/header.php'); ?>
     <div class="carousel-item">
       <div class="hero-slide" style="background: url('https://placehold.co/1920x800/434343/595959') no-repeat center center / cover;;">
         <div class="container px-4 px-md-5">
-          <div class="row align-items-center py-5" style="min-height: 80vh;">
-            <div class="col-lg-6 pe-lg-5 ps-lg-4">
+          <div class="row align-items-center py-5 vh-100">
+            <div class="col-8 col-lg-6 pe-lg-5 ps-lg-4">
               <h1 class="display-4 fw-bold mb-3 text-white">Únete a <span class="text-primary">nuestra comunidad</span></h1>
               <p class="fs-5 mb-4 text-white">Forma parte de la red de profesionales y estudiantes comprometidos con el desarrollo científico de Puerto Rico.</p>
               <a href="#" class="btn btn-primary text-white btn-lg fs-7 me-3">Regístrate</a>
@@ -347,6 +347,7 @@ include_once ('templates/header.php'); ?>
 <section class="py-7 pattern-grey-2">
   <div class="container">
     <div class="row align-items-center g-4 mx-1 mx-md-0">
+      
       <div class="col-12 bg-primary rounded-20">
         <div class="row mx-5 my-4">
           <div class="col col-md-6">
@@ -356,27 +357,28 @@ include_once ('templates/header.php'); ?>
             <p class="fs-7 text-white">A través de nuestro canal de YouTube, compartimos conocimiento, curiosidad y el impacto real de la ciencia en Puerto Rico y el mundo.</p>
             <a href="https://www.youtube.com/@CienciaprOrg" target="_blank" class="fs-7 btn bg-white d-inline-flex align-items-center shadow rounded-3 text-decoration-none px-3 py-2" style="border: 1px solid #eef0f2;">
               <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-3">
-                  <rect x="2" y="4" width="20" height="16" rx="4" fill="#EE1D23"/>
-                  <path d="M10 8.5L16 12L10 15.5V8.5Z" fill="white"/>
+                <rect x="2" y="4" width="20" height="16" rx="4" fill="#EE1D23"/>
+                <path d="M10 8.5L16 12L10 15.5V8.5Z" fill="white"/>
               </svg>
               <span class="text-dark fw-normal fs-6">Accede a nuestro canal en YouTube</span>
-          </a>
-          </div>
-        </div>
-      </div>
-      <div id="yt-video" class="col-12 bg-white rounded-20 p-3">
-        <div class="position-relative rounded-4 overflow-hidden shadow-lg video-placeholder vh-100">
-          <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></div>
-          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center z-2">
-            <a href="#" class="play-icon-link">
-               <img src="<?= SERVER_URI ?>images/icon-play-button.svg" alt="Play Video" style="width: 90px; height: auto;">
             </a>
           </div>
         </div>
       </div>
+
+      <div id="yt-video" class="col-12 bg-white rounded-20 p-3">
+        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg">
+          <iframe 
+            src="https://www.youtube.com/embed/8enCAh-t4vo?rel=0" 
+            title="Leadership Power Training: Creatividad" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
     </div>
   </div>
-</section>  
+</section>
 </main>
 <?php
 include_once ('templates/footer.php');
