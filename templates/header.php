@@ -79,12 +79,12 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Conoce) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">más sobre la organización</span>
+                    <span class="dropdown-item-text text-muted px-3">más sobre la organización</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
                       <div class="col-lg-3">
-                        <img src="https://images.unsplash.com/photo-1730875649131-7fa5d86d02e2?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded object-fit-cover" alt="Placeholder Menú Conoce" 
+                        <img src="https://images.unsplash.com/photo-1730875649131-7fa5d86d02e2?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded object-fit-cover w-100 img-fluid" alt="Placeholder Menú Conoce" 
                              onerror="this.onerror=null;this.src='https://placehold.co/400x300/EEEEEE/EEEEEE'" width="276" height="207">
                       </div>
                       
@@ -179,7 +179,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Explora) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">las iniciativas e impacto de CienciaPR</span>
+                    <span class="dropdown-item-text text-muted px-3">las iniciativas e impacto de CienciaPR</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
@@ -291,7 +291,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Participa) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">en oportunidades, convocatorias y eventos de CienciaPR y otras organizaciones</span>
+                    <span class="dropdown-item-text text-muted px-3">en oportunidades, convocatorias y eventos de CienciaPR y otras organizaciones</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
@@ -315,6 +315,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Eventos</h6>
                             <ul class="list-unstyled mt-3 mb-0">
+															<li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>participa.php#eventos_resaltados">Eventos Resaltados</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>participa.php#seccion-eventos">Calendario de eventos</a></li>
                             </ul>
                           </div>
@@ -345,6 +346,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuParticipa-2" data-bs-parent="#participaMobileAccordion">
                           <ul class="list-unstyled ms-4">
+                            <li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#eventos_resaltados">Eventos Resaltados</a></li>
                             <li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#seccion-eventos">Calendario de eventos</a></li>
                           </ul>
                         </div>
@@ -364,7 +366,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Descubre) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">contenidos que celebran y divulgan la ciencia puertorriqueña</span>
+                    <span class="dropdown-item-text text-muted px-3">contenidos que celebran y divulgan la ciencia puertorriqueña</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
@@ -448,7 +450,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Únete) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">a la comunidad interesada en la ciencia y Puerto Rico más grande del mundo</span>
+                    <span class="dropdown-item-text text-muted px-3">a la comunidad interesada en la ciencia y Puerto Rico más grande del mundo</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->
@@ -520,7 +522,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 <li>
                   <!-- INICIO: Vista Desktop (Involúcrate) -->
                   <div class="container d-none d-lg-block py-3">
-                    <span class="dropdown-item-text text-muted small px-3">donando, apoyando y/o colaborando</span>
+                    <span class="dropdown-item-text text-muted px-3">donando, apoyando y/o colaborando</span>
                     <hr class="my-3">
                     <div class="row pt-4 pb-5">
                       <!-- Columna de la Imagen -->

@@ -189,7 +189,7 @@ include_once ('templates/breadcrumbs.php');
 			<?php include_once ('templates/fila-de-anuncio.php'); ?>
 		</section>
 		<!-- Eventos resaltados -->
-		<section class="pb-7 carousel-module">
+		<section id="eventos_resaltados" class="pb-7 carousel-module">
 			<div class="container">
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
