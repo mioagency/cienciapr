@@ -307,6 +307,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                             <h6 class="text-dark fw-bold mega-menu-title">Oportunidades</h6>
                             <ul class="list-unstyled mt-3 mb-0">
+															<li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>participa.php#oportunidades_resaltadas">Oportunidades Resaltadas</a></li>
                               <li><a class="dropdown-item px-0" href="<?= SERVER_URI ?>participa.php#foro-oportunidades">Foro de oportunidades</a></li>
                             </ul>
                           </div>
@@ -332,6 +333,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                         </a>
                         <div class="collapse" id="menuParticipa-1" data-bs-parent="#participaMobileAccordion">
                           <ul class="list-unstyled ms-4">
+														<li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#oportunidades_resaltadas">Oportunidades Resaltadas</a></li>
                             <li><a class="dropdown-item" href="<?= SERVER_URI ?>participa.php#foro-oportunidades">Foro de oportunidades</a></li>
                           </ul>
                         </div>

@@ -31,7 +31,7 @@ include_once ('templates/breadcrumbs.php');
         
     </section>
     
-    <section id="convocatorias" class="py-7">
+    <section id="oportunidades_resaltadas" class="py-7">
 			<div class="container">
 				<!-- CABECERA Y CONTROLES -->
 				<div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
