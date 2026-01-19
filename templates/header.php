@@ -65,7 +65,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
         
         <div class="collapse navbar-collapse" id="navItems">
           <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-xl-center">
-            <li class="nav-item">
+            <li class="nav-item d-flex align-items-center">
               <a class="<?= (ACTIVE_PAGE == 'index') ? 'active text-primary':''; ?> nav-link" aria-current="page" href="<?= SERVER_URI ?>index.php">Inicio</a>
             </li>
             
@@ -640,7 +640,7 @@ define('ACTIVE_PAGE', basename($_SERVER['PHP_SELF'], ".php"));
                 </div>
             </li>
             <!-- FIN: Enlaces del Topbar para móvil -->
-            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <li class="nav-item d-flex align-items-center ms-lg-3 mt-3 mt-lg-0">
                 <div class="d-grid">
                   <a href="https://givebutter.com/Tt7CRd" target="_blank" class="btn btn-primary text-white">Donar</a>
                 </div>
