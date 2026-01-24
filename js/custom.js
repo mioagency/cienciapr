@@ -83,25 +83,54 @@ document.addEventListener("DOMContentLoaded", function () {
 /* END Carousel de Tarjetas */
 
 /* Calendario */
+/* ===================================================
+   Lógica del Calendario (Solo en Sección Eventos)
+   =================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  
+  // 1. Buscamos la sección contenedora
+  const eventosSection = document.getElementById("seccion_eventos");
 
-const months = document.querySelectorAll(".calendar-month");
-const title = document.getElementById("calendar-title");
+  // 2. CONDICIONAL DE SEGURIDAD:
+  // Si la sección NO existe, detenemos la función aquí con un 'return'.
+  // Esto evita que el resto del código intente buscar elementos que no existen.
+  if (!eventosSection) {
+    return; 
+  }
 
-let current = 0;
+  // --- Si llegamos aquí, es porque la sección existe. Ejecutamos el calendario. ---
+  const months = document.querySelectorAll(".calendar-month");
+  const title = document.getElementById("calendar-title");
+  const nextBtn = document.getElementById("next-month");
+  const prevBtn = document.getElementById("prev-month");
 
-document.getElementById("next-month").addEventListener("click", () => {
-  months[current].style.display = "none";
-  current = (current + 1) % months.length;
-  months[current].style.display = "block";
-  title.textContent = months[current].dataset.title;
+  // Validación extra por si acaso faltan los botones dentro de la sección
+  if (!nextBtn || !prevBtn || !title) return;
+
+  let current = 0;
+
+  nextBtn.addEventListener("click", () => {
+    months[current].style.display = "none";
+    current = (current + 1) % months.length;
+    months[current].style.display = "block";
+    // Asegúrate de que el dataset title exista
+    if (months[current].dataset.title) {
+        title.textContent = months[current].dataset.title;
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    months[current].style.display = "none";
+    current = (current - 1 + months.length) % months.length;
+    months[current].style.display = "block";
+    if (months[current].dataset.title) {
+        title.textContent = months[current].dataset.title;
+    }
+  });
+
 });
 
-document.getElementById("prev-month").addEventListener("click", () => {
-  months[current].style.display = "none";
-  current = (current - 1 + months.length) % months.length;
-  months[current].style.display = "block";
-  title.textContent = months[current].dataset.title;
-});
+
 
 /* News Container */
 document.addEventListener("DOMContentLoaded", function () {
@@ -115,4 +144,53 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   console.log("Carousel Ticker inicializado manualmente");
+});
+
+
+
+
+/* Carousel de Patrocinadores */
+document.addEventListener('DOMContentLoaded', () => {
+  // 1. Seleccionamos la nueva clase
+  const slider = document.querySelector('.slider-scrollable');
+  
+  // Si no existe el slider en esta página, detenemos el script
+  if (!slider) return;
+
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  // Evento: Clic presionado (MouseDown)
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.classList.add('active'); 
+    // Guardamos la posición inicial
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+
+  // Evento: Salir del área (MouseLeave)
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  // Evento: Soltar el clic (MouseUp)
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  // Evento: Mover el mouse (MouseMove) -> Aquí ocurre la magia
+  slider.addEventListener('mousemove', (e) => {
+    if (!isDown) return; // Si no está presionado, no hacer nada
+    e.preventDefault();
+    
+    const x = e.pageX - slider.offsetLeft;
+    // Multiplicador de velocidad (* 2). 
+    // Auméntalo a 3 para que sea más rápido o bájalo a 1 para que sea 1:1
+    const walk = (x - startX) * 2; 
+    slider.scrollLeft = scrollLeft - walk;
+  });
 });

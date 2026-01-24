@@ -202,3 +202,41 @@
   // Evita que el navegador corte una tarjeta a la mitad si es posible
   scroll-snap-stop: always;
 }
+
+
+/* ===================================================
+   Slider de Patrocinadores (Drag to Scroll)
+   =================================================== */
+.slider-scrollable {
+  /* Habilita el scroll horizontal nativo y oculta el vertical */
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+  /* Cursor de "mano abierta" para indicar que se puede arrastrar */
+  cursor: grab;
+  
+  /* Evita que se seleccione texto al arrastrar */
+  user-select: none;
+  -webkit-user-select: none;
+  
+  /* Ocultar Scrollbar (Estética limpia) */
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+  /* Estado "agarrando" cuando haces click */
+  &:active {
+    cursor: grabbing;
+  }
+
+  /* IMPORTANTE: Evita que el navegador intente arrastrar la imagen (ghost image)
+     permitiendo que el script controle el deslizamiento */
+  img {
+    pointer-events: none;
+		user-select: none;    /* Evita que se sombree el logo en azul */
+  	-webkit-user-drag: none; /* Específico para Webkit */
+  }
+}
