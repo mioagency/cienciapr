@@ -321,7 +321,7 @@ include_once ('templates/breadcrumbs.php');
 		</div>
 	</section>
 <!-- Calendario -->
-<section id="seccion-eventos" class="container-fluid bg-primary py-7 calendar-bg">
+<section id="seccion_eventos" class="container-fluid bg-primary py-7 calendar-bg">
 	<div class="container pb-7">
 		<div class="row">
 			<div class="col-12 col-md-4">
